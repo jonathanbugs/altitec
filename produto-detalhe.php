@@ -35,94 +35,95 @@
 		</header>
 
 		<section id="conteudoPrincipal">
-			<div id="main">
-				<div class="clearfix">
-					<h2>Descensor ID S Petzl</h2>
-					<ul class="migalhaPao">
-						<li><a href="javascript:;">principal</a></li>
-						<li><a href="javascript:;">produtos</a></li>
-						<li><a href="javascript:;">nome categoria</a></li>
-						<li><a href="javascript:;">Descensor ID S Petzl</a></li>
-					</ul>
-				
-					<span class="ttCategoria">Nome Categoria</span>
-				</div>
-				<div id="sobreProduto">
-					<div class="cms">
-						<img src="../img/produto-detalhe.jpg" alt="">
+			<div class="container clearfix">
+				<div id="main">
+					<div class="clearfix headerProduto">
+						<h2 class="ttNomeProduto">Descensor ID S Petzl</h2>
+						<ul class="migalhaPao">
+							<li><a href="javascript:;">principal</a></li>
+							<li><a href="javascript:;">produtos</a></li>
+							<li><a href="javascript:;">nome categoria</a></li>
+							<li class="last"><a href="javascript:;">Descensor ID S Petzl</a></li>
+						</ul>
+					
+						<span class="ttCategoria"><span>Nome Categoria</span></span>
+					</div>
+					<div id="sobreProduto">
+						<div class="cms">
+							<img src="img/produto_detalhe.jpg" alt="">
 
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sodales arcu sit amet elit eleifend, porttitor interdum neque dictum. Ut posuere porta ligula, varius mattis nibh malesuada vel. Cras vel leo suscipit est eleifend posuere. Donec vel pulvinar felis, non molestie quam. Ut nec facilisis leo. Sed ut gravida ipsum. Suspendisse potenti. Donec eu feugiat nibh. Nunc vitae dictum lacus. Nam tempor ipsum id risus aliquet, in convallis tortor tristique.</p>
-						<p>Integer lobortis ligula et dui porttitor commodo. Proin viverra magna in augue hendrerit laoreet. Fusce ut mattis erat. Pellentesque sed tortor erat. Fusce commodo fringilla porta. Nam lorem diam, rhoncus eget blandit nec, semper cursus leo. Mauris a justo a ligula vestibulum mollis placerat vel eros. Integer massa enim, laoreet id velit ut, dictum blandit purus. Phasellus non rutrum dolor, et vestibulum turpis. Mauris ut vestibulum massa. Morbi a erat sem. Sed libero orci, euismod non tincidunt consequat, bibendum et magna. Suspendisse potenti. Nam aliquet, eros a mattis pellentesque, ante nulla pharetra justo, eget dapibus eros purus vel sem.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sodales arcu sit amet elit eleifend, porttitor interdum neque dictum. Ut posuere porta ligula, varius mattis nibh malesuada vel. Cras vel leo suscipit est eleifend posuere. Donec vel pulvinar felis, non molestie quam. Ut nec facilisis leo. Sed ut gravida ipsum. Suspendisse potenti. Donec eu feugiat nibh. Nunc vitae dictum lacus. Nam tempor ipsum id risus aliquet, in convallis tortor tristique.</p>
+							<p>Integer lobortis ligula et dui porttitor commodo. Proin viverra magna in augue hendrerit laoreet. Fusce ut mattis erat. Pellentesque sed tortor erat. Fusce commodo fringilla porta. Nam lorem diam, rhoncus eget blandit nec, semper cursus leo. Mauris a justo a ligula vestibulum mollis placerat vel eros. Integer massa enim, laoreet id velit ut, dictum blandit purus. Phasellus non rutrum dolor, et vestibulum turpis. Mauris ut vestibulum massa. Morbi a erat sem. Sed libero orci, euismod non tincidunt consequat, bibendum et magna. Suspendisse potenti. Nam aliquet, eros a mattis pellentesque, ante nulla pharetra justo, eget dapibus eros purus vel sem.</p>
+						</div>
+
+						<a href="javascript:;" class="btRealizarOrcamento"><span>(Realizar orçamento)</span></a>
+
+						<form action="javascript:;" id="formOrcamento">
+							<ul>
+								<li>
+									<label for="iptNome">Nome:</label>
+									<input type="text" id="iptNome" name="iptNome">
+								</li>
+								<li>
+									<label for="iptEmail">E-mail:</label>
+									<input type="text" id="iptEmail" name="iptEmail">
+								</li>
+								<li>
+									<label for="iptFone">Fone:</label>
+									<input type="text" id="iptFone" name="iptFone">
+
+									<label for="IptCidade">Cidade/UF:</label>
+									<input type="text" id="iptCidade" name="iptCidade">
+								</li>
+								<li>
+									<label for="txtAreaMensagem">Mensagem:</label>
+									<textarea name="txtAreaMensagem" id="txtAreaMensagem" cols="30" rows="10"></textarea>
+								</li>
+								<li>
+									<button id="btEnviarOrcarmento">Enviar</button>
+								</li>
+							</ul>
+						</form>	
 					</div>
 
-					<a href="javascript:;" id="btRealizarorcamento">(Realizar orçamento)</a>
+					<a id="linkTopo" class="ir" href="#topo">Voltar ao Topo</a>
+				</div>
 
-					<form action="javascript:;" id="formOrcamento">
+				<aside id="sidebar">
+					<img src="img/side_produtos.jpg" alt="">
+
+					<span class="ttProdutosSide">Produtos</span>
+
+					<nav id="navLocal">
 						<ul>
 							<li>
-								<label for="iptNome">Nome:</label>
-								<input type="text" id="iptNome" name="iptNome">
+								<a href="javascript:;">Nome Categoria</a>
 							</li>
 							<li>
-								<label for="iptEmail">E-mail:</label>
-								<input type="text" id="iptEmail" name="iptEmail">
+								<a href="javascript:;">Nome Categoria</a>
 							</li>
 							<li>
-								<label for="iptFone">Fone:</label>
-								<input type="text" id="iptFone" name="iptFone">
-
-								<label for="IptCidade">Cidade/UF:</label>
-								<input type="text" id="iptCidade" name="iptCidade">
+								<a href="javascript:;">Nome Categoria</a>
 							</li>
 							<li>
-								<label for="txtAreaMensagem">Mensagem:</label>
-								<textarea name="txtAreaMensagem" id="txtAreaMensagem" cols="30" rows="10"></textarea>
+								<a href="javascript:;">Nome Categoria</a>
 							</li>
 							<li>
-								<button id="btEnviarOrcarmento">Enviar</button>
+								<a href="javascript:;">Nome Categoria</a>
+							</li>
+							<li>
+								<a href="javascript:;">Nome Categoria</a>
+								<ul>
+									<li><a href="javascript:;">Nome Categoria</a></li>
+									<li><a href="javascript:;">Nome Categoria</a></li>
+									<li><a href="javascript:;">Nome Categoria</a></li>
+								</ul>
 							</li>
 						</ul>
-					</form>	
-
-					<div class="voltarTopo">
-						<a id="linkTopo" class="ir" href="#topo">Voltar ao Topo</a>
-					</div>
-				</div>
+					</nav>	
+				</aside>	
 			</div>
 
-			<aside id="sidebar">
-				<img src="../img/sideProdutos.jpg" alt="">
-
-				<span class="ttProdutosSide">Produtos</span>
-
-				<nav id="navLocal">
-					<ul>
-						<li>
-							<a href="javascript:;">Nome Categoria</a>
-						</li>
-						<li>
-							<a href="javascript:;">Nome Categoria</a>
-						</li>
-						<li>
-							<a href="javascript:;">Nome Categoria</a>
-						</li>
-						<li>
-							<a href="javascript:;">Nome Categoria</a>
-						</li>
-						<li>
-							<a href="javascript:;">Nome Categoria</a>
-						</li>
-						<li>
-							<a href="javascript:;">Nome Categoria</a>
-							<ul>
-								<li><a href="javascript:;">Nome Categoria</a></li>
-								<li><a href="javascript:;">Nome Categoria</a></li>
-								<li><a href="javascript:;">Nome Categoria</a></li>
-							</ul>
-						</li>
-					</ul>
-				</nav>	
-			</aside>
 		</section>
 
 		<footer>

@@ -1,0 +1,136 @@
+/* -----------------------------
+ DEPOIS MOVER PARA TEMPLATE 
+ -----------------------------*/
+ #main {
+ 	float: left;
+ 	width: 600px;
+ 	padding-bottom: 100px;
+ 	position: relative;
+ 	background: url("../img/backgrounds/bg_main.png") no-repeat center bottom;
+ }
+
+ #sidebar {
+ 	float: right;
+ }
+
+ #sobreProduto {
+ 	background: #FFF;
+ 	padding: 30px;
+ }
+
+.headerProduto {
+	position: relative;
+}
+
+.ttNomeProduto {
+	padding: 100px 0 5px 0;
+	font-size: 18px;
+	color: #004533;
+}
+
+.migalhaPao {
+	height: 30px;
+}
+
+.migalhaPao li a {
+	color: #000000;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+.migalhaPao li {
+	float: left; 
+	position: relative;
+	padding-right: 9px;
+	margin-right: 5px;
+}
+
+.migalhaPao li:after {
+	content: "/";
+	display: block;
+	position: absolute;
+	top: 1px;
+	right: 0;
+}
+
+.migalhaPao li.last:after {
+	content: none;
+}
+
+.migalhaPao li a:hover {
+	text-decoration: underline;
+}
+
+.migalhaPao li.last a:hover {
+	text-decoration: none;
+	cursor: default;
+}
+
+.ttCategoria {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	color: #FFF;
+	font-size: 12px;
+	line-height: 34px;
+	height: 34px;
+	padding-right: 32px;
+	background: url("../img/backgrounds/bg_tt_categoria_sobre_produtos.png") no-repeat right bottom;
+}
+
+.ttCategoria span {
+	display: block;
+	line-height: 34px;
+	height: 34px; 
+	padding-left: 32px;
+	background: url("../img/backgrounds/bg_tt_categoria_sobre_produtos.png") no-repeat left top;
+}
+
+.cms img {
+	padding-bottom: 30px;
+}
+
+.cms p {
+	font-size: 12px;
+	line-height: 18px;
+	padding-bottom: 30px;
+}
+
+#formOrcamento {
+	display: none;
+}
+
+.btRealizarOrcamento {
+	font-size: 14px;
+	color: #656565;
+	line-height: 39px;
+	height: 39px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	padding-right: 30px;
+	background: url("../img/botoes/bt_realizar_orcamento.png") no-repeat right -69px;
+}
+
+.btRealizarOrcamento span {
+	padding-left: 30px;
+	background: url("../img/botoes/bt_realizar_orcamento.png") no-repeat left top;
+	display: block;
+	line-height: 39px;
+	height: 39px;
+}
+
+.btRealizarOrcamento:hover {
+	background-position: right -247px;
+}
+
+.btRealizarOrcamento:hover span {
+	background-position: left -178px;
+}
+
+#linkTopo {
+	width: 100px;
+	height: 100px;
+	background: url("../img/logos/logo_topo_main.png") no-repeat 0 0;
+}
+
