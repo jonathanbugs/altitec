@@ -491,6 +491,93 @@ body {
 } 
 
 
+
+/* SESSAO */
+#main {
+	float: left;
+	width: 600px;
+	padding-bottom: 100px;
+	position: relative;
+	background: url("../img/backgrounds/bg_main.png") no-repeat center bottom;
+}
+
+#sidebar {
+	float: right;
+}
+
+.headerSessao {
+	position: relative;
+	padding-top: 90px;
+} 
+
+.tituloSessao {
+	font-size: 40px;
+	color: #004533;
+	display: block;
+	font-weight: bold;
+	padding-bottom: 15px;
+}
+
+.migalhaPao {
+	height: 30px;
+}
+
+.migalhaPao li a {
+	color: #000000;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+.migalhaPao li {
+	float: left; 
+	position: relative;
+	padding-right: 9px;
+	margin-right: 5px;
+}
+
+.migalhaPao li:after {
+	content: "/";
+	display: block;
+	position: absolute;
+	top: 1px;
+	right: 0;
+}
+
+.migalhaPao li.last:after {
+	content: none;
+}
+
+.migalhaPao li a:hover {
+	text-decoration: underline;
+}
+
+.migalhaPao li.last a:hover {
+	text-decoration: none;
+	cursor: default;
+}
+
+.cms img {
+	padding-bottom: 30px;
+}
+
+.cms p {
+	font-size: 12px;
+	line-height: 18px;
+	padding-bottom: 30px;
+}
+
+#sessaoConteudo {
+	background: #FFF;
+	padding: 30px;
+	min-height: 500px;
+}
+
+#linkTopo {
+	width: 100px;
+	height: 100px;
+	background: url("../img/logos/logo_topo_main.png") no-repeat 0 0;
+}
+
 /* for high resolution display */
 @media only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
 	

@@ -1,0 +1,21 @@
+#institucionalUl {
+}
+
+.institucionalLi {
+	float: left;
+	width: 150px;
+	height: 103px;
+	background: blue;
+	border: 3px solid #669933;
+	margin-right: 30px;
+}
+
+.institucionalLiLast {
+	margin-right: 0;
+}
+
+.institucionalImg {
+	width: 100%;
+	display: block;
+}
+
