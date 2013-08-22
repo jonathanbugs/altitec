@@ -38,6 +38,7 @@
 					<div id="logoFixo">
 						<img src="img/logos/logo_fixo.png" alt="Altitec">
 					</div>
+					<div class="trianguloGeral"></div>
 					<ul id="bannerUl">
 						<li class="bannerLi">
 							<img src="img/banner/banner1.jpg" alt="">
@@ -66,8 +67,69 @@
 				<a id="linkTopo" class="ir" href="#topo">Voltar ao Topo</a>
 			</div>
 			<section id="produtos">
-				<div class="container">
-					produtos
+				<div class="container containerProdutos">
+					<div class="trianguloGeral"></div>
+					<div class="blocoTitulo">
+						<span class="titulo">Produtos</span>
+						<a class="linkExplore" href="javascript:;">Explore +</a>
+					</div>
+
+					<div class="blocoData">
+						<span>Estância Velha, 22 de Julho de 2013</span>
+					</div>
+
+					<div class="blocoProdutos">
+						<ul id="produtoUl">
+							<li class="produtoLi">
+								<a class="produtoLink" href="javascript:;">
+									<img class="produtoImg" src="img/produto.jpg" />
+									<span class="tituloProduto">Descensor ids Petzl</span>
+								</a>
+							</li>
+							<li class="produtoLi">
+								<a class="produtoLink" href="javascript:;">
+									<img class="produtoImg" src="img/produto.jpg" />
+									<span class="tituloProduto">Descensor ids Petzl</span>
+								</a>
+							</li>
+							<li class="produtoLi">
+								<a class="produtoLink" href="javascript:;">
+									<img class="produtoImg" src="img/produto.jpg" />
+									<span class="tituloProduto">Descensor ids</span>
+								</a>
+							</li>
+							<li class="produtoLi">
+								<a class="produtoLink" href="javascript:;">
+									<img class="produtoImg" src="img/produto.jpg" />
+									<span class="tituloProduto">Descensor ids Petzl</span>
+								</a>
+							</li>
+							<li class="produtoLi">
+								<a class="produtoLink" href="javascript:;">
+									<img class="produtoImg" src="img/produto.jpg" />
+									<span class="tituloProduto">Descensor Petzl</span>
+								</a>
+							</li>
+							<li class="produtoLi">
+								<a class="produtoLink" href="javascript:;">
+									<img class="produtoImg" src="img/produto.jpg" />
+									<span class="tituloProduto">Descensor ids Petzl</span>
+								</a>
+							</li>
+							<li class="produtoLi">
+								<a class="produtoLink" href="javascript:;">
+									<img class="produtoImg" src="img/produto.jpg" />
+									<span class="tituloProduto">Descensor Petzl</span>
+								</a>
+							</li>
+							<li class="produtoLi">
+								<a class="produtoLink" href="javascript:;">
+									<img class="produtoImg" src="img/produto.jpg" />
+									<span class="tituloProduto">Descensor ids Petzl</span>
+								</a>
+							</li>
+						</ul> 
+					</div>   
 				</div>
 			</section>
 
@@ -75,7 +137,6 @@
 				<section id="novidades">
 					<div class="blocoTitulo">
 						<span class="titulo">Novidades</span>
-						<span class="triangulo"></span>
 					</div>
 					<div class="containerNovidades clearfix">
 						<ul id="novidadesUl" class="clearfix">
