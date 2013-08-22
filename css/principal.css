@@ -1,0 +1,84 @@
+/* BANNER */
+#banner {
+	width: 100%;
+	position: relative;
+	margin-top: -38px;
+}
+
+#bannerUl {
+	height: 390px;
+}
+
+.textoBanner {
+	background: #FFF;
+	color: #00682e;
+	padding: 23px 20px;
+	position: relative;
+}
+
+.textoBanner .textoTitulo {
+	display: block;
+	font-size: 40px;
+	padding-bottom: 22px;
+	font-weight: bold;
+	letter-spacing: -0.05em;
+}
+
+.textoBanner .textoDescricao {
+	display: block;
+	font-size: 15px;
+}
+
+.bannerLink {
+	position: absolute;
+	top: 40px;
+	right: 22px;
+	font-size: 25px;
+	color: #000;
+	text-decoration: none;
+}
+
+.bannerLink:hover {
+	color: #00682e;
+}
+
+#logoFixo {
+	position: absolute;
+	top: 50px;
+	left: 50%;
+	width: 256px;
+	height: 211px;
+	margin-left: -128px;
+	z-index: 100;
+}
+
+
+/* CONTEUDO */
+#conteudoPrincipal {
+	background: url('../img/backgrounds/bottom_conteudo.png') no-repeat bottom center;
+	padding-bottom: 131px;
+	position: relative;
+}
+
+#linkTopo {
+	background: url('../img/logos/logo_topo.png') no-repeat bottom center;
+	width: 378px;
+	height: 131px;
+	position: absolute;
+	left: 50%;
+	bottom: 10px;
+	margin-left: -190px;
+}
+
+
+#produtos {
+	background: url('../img/backgrounds/bg_produtos.png') repeat-x;
+	height: 288px;
+}
+
+
+#novidades {
+	background: pink;
+	height: 300px;
+}
+
