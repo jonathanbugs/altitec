@@ -70,7 +70,48 @@
 				</div>
 				<aside id="sidebar">
 					<img src="img/img_side.png" alt="">
-					<span class="ttProdutosSide">Produtos</span>
+					<span class="tituloSidebar">
+						<span>Institucional</span>
+					</span>
+
+					<ul id="produtosSidebarUl">
+						<li class="produtosSidebarLi">
+							<a class="produtosSidebarLink" href="javascript:;">
+								<img class="produtosSidebarImg" src="img/produto.jpg" />
+								<div class="blocoTituloProduto">
+									<span class="produtosSidebarTitulo">Descensor ids Petzl</span>
+									<span class="produtoSidebarBt ir" href="javascript:;">Ver Mais</span>
+								</div>
+							</a>
+						</li>
+						<li class="produtosSidebarLi">
+							<a class="produtosSidebarLink" href="javascript:;">
+								<img class="produtosSidebarImg" src="img/produto.jpg" />
+								<div class="blocoTituloProduto">
+									<span class="produtosSidebarTitulo">Descensor ids Petzl</span>
+									<span class="produtoSidebarBt ir" href="javascript:;">Ver Mais</span>
+								</div>
+							</a>
+						</li>
+						<li class="produtosSidebarLi">
+							<a class="produtosSidebarLink" href="javascript:;">
+								<img class="produtosSidebarImg" src="img/produto.jpg" />
+								<div class="blocoTituloProduto">
+									<span class="produtosSidebarTitulo">Descensor ids Petzl</span>
+									<span class="produtoSidebarBt ir" href="javascript:;">Ver Mais</span>
+								</div>
+							</a>
+						</li>
+						<li class="produtosSidebarLi">
+							<a class="produtosSidebarLink" href="javascript:;">
+								<img class="produtosSidebarImg" src="img/produto.jpg" />
+								<div class="blocoTituloProduto">
+									<span class="produtosSidebarTitulo">Descensor ids Petzl</span>
+									<span class="produtoSidebarBt ir" href="javascript:;">Ver Mais</span>
+								</div>
+							</a>
+						</li>
+					</ul>
 				</aside>	
 			</div>
 		</section>

@@ -16,3 +16,50 @@
 	display: block;
 }
 
+
+#produtosSidebarUl {
+	margin-top: 45px;
+}
+
+.produtosSidebarLi {
+	width: 117px;
+	text-align: center;
+	float: left;
+	margin: 0 0 40px 30px;
+}
+
+.produtosSidebarLink {
+	text-decoration: none;
+	display: block;
+	height: 100%;
+}
+
+.blocoTituloProduto {
+	border-top: 10px solid #006633;
+	position: relative;
+}
+
+.produtoSidebarBt {
+	background: url('../img/botoes/ver_mais_sidebar.png') no-repeat;
+	width: 35px;
+	height: 30px;
+	position: absolute;
+	top: -1px;
+	right: 0;
+}
+
+.produtosSidebarTitulo {
+	color: #006633;
+	font-size: 13px;
+	display: block;
+	text-align: left;
+	text-decoration: none;
+	line-height: 15px;
+	margin-top: 3px;
+	max-width: 70px;
+}
+
+.produtosSidebarLink:hover .tituloProduto {
+	text-decoration: underline;
+}
+
