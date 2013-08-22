@@ -64,10 +64,12 @@
 						</ul>
 					</div>
 
-					<a id="linkTopo" class="ir" href="#topo">Voltar ao Topo</a>
+					<div class="voltarTopo">
+						<a id="linkTopo" class="ir" href="#topo">Voltar ao Topo</a>
+					</div>
 				</div>
 				<aside id="sidebar">
-					<img src="img/side_produtos.jpg" alt="">
+					<img src="img/img_side.png" alt="">
 					<span class="ttProdutosSide">Produtos</span>
 				</aside>	
 			</div>

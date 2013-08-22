@@ -496,13 +496,14 @@ body {
 #main {
 	float: left;
 	width: 600px;
-	padding-bottom: 100px;
 	position: relative;
 	background: url("../img/backgrounds/bg_main.png") no-repeat center bottom;
 }
 
 #sidebar {
 	float: right;
+    padding-top: 20px;
+    width: 330px;
 }
 
 .headerSessao {
@@ -572,10 +573,15 @@ body {
 	min-height: 500px;
 }
 
+.voltarTopo{
+	padding-top: 18px;
+	height: 82px;
+}
+
 #linkTopo {
-	width: 100px;
-	height: 100px;
-	background: url("../img/logos/logo_topo_main.png") no-repeat 0 0;
+	width: 240px;
+	height: 82px;
+	margin: 0 auto;
 }
 
 /* for high resolution display */
