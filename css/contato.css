@@ -1,0 +1,41 @@
+.blocoEmpresa {
+	margin-top: 45px;
+}
+
+.empresaEndereco span {
+	display: block;
+	color: #000;
+	font-size: 15px;
+	padding-bottom: 3px;
+}
+
+.empresaImg {
+	display: block;
+	width: 100%;
+	margin-top: 12px;
+}
+
+.contatoSidebarUl {
+	margin-top: 15px;
+}
+
+.contatoSidebarLi {
+	display: block;
+	color: #000;
+	font-size: 18px; 
+	padding-bottom: 8px;
+}
+
+.contatoSidebarLiFone {
+	font-size: 26px;
+}
+
+.linkEmail {
+	color: #000;
+	text-decoration: none;
+	display: block;
+}
+
+.linkEmail:hover {
+	text-decoration: underline;
+}

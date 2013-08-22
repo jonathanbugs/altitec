@@ -59,7 +59,7 @@
 	max-width: 70px;
 }
 
-.produtosSidebarLink:hover .tituloProduto {
+.produtosSidebarLink:hover .produtosSidebarTitulo {
 	text-decoration: underline;
 }
 
