@@ -97,10 +97,6 @@
 	padding-bottom: 30px;
 }
 
-#formOrcamento {
-	display: none;
-}
-
 .btRealizarOrcamento {
 	font-size: 14px;
 	color: #656565;
@@ -189,10 +185,6 @@ SIDEBAR
 	border-top: 2px solid #b3b3b3;
 }
 
-#navLocal ul ul li {
-
-}
-
 #navLocal ul ul a {
 	font-size: 14px;
 }
@@ -201,3 +193,67 @@ SIDEBAR
 	background: #FFF;
 }
 
+#formOrcamento label{
+	display: block;
+	width: 90px;
+	text-align: right;
+	padding-right: 10px;
+	font-size: 14px;
+	line-height: 40px;
+	float: left;
+}
+
+#formOrcamento {
+/*	display: none; */
+	padding-top: 20px;
+}
+
+#formOrcamento li {
+	height: 40px;
+	margin-bottom: 5px;
+}
+
+#formOrcamento .liCampoTextArea {
+	height: 192px;
+}
+
+#formOrcamento input{
+	float: left;
+	font-family: 'open_sansregular', arial, sans-serif;	
+	border: none;
+	background: #e6e6e6;
+	font-size: 14px;
+	color: #4e7171;
+	padding: 11px;
+	width: 418px;
+}
+
+#formOrcamento #iptFone {
+	width: 140px;
+}
+
+#formOrcamento #iptCidade {
+	width: 156px;
+}
+
+#formOrcamento textarea {
+	float: left;
+	font-family: 'open_sansregular', arial, sans-serif;
+	border: none;
+	background: #e6e6e6;
+	font-size: 14px;
+	color: #4e7171;
+	padding: 11px;
+	width: 418px;
+	height: 150px;
+}
+
+#btEnviarOrcarmento {
+	float: right;
+	background: none;
+	border: none;
+	outline: none;
+	font-size: 22px;
+	color: #4e7171;
+	font-family: 'open_sansregular', arial, sans-serif;
+}

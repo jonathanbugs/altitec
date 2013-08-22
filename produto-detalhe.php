@@ -61,22 +61,22 @@
 						<form action="javascript:;" id="formOrcamento">
 							<ul>
 								<li>
-									<label for="iptNome">Nome:</label>
+									<label id="lblNome" for="iptNome">Nome:</label>
 									<input type="text" id="iptNome" name="iptNome">
 								</li>
 								<li>
-									<label for="iptEmail">E-mail:</label>
+									<label id="lblEmail" for="iptEmail">E-mail:</label>
 									<input type="text" id="iptEmail" name="iptEmail">
 								</li>
 								<li>
-									<label for="iptFone">Fone:</label>
+									<label id="lblFone" for="iptFone">Fone:</label>
 									<input type="text" id="iptFone" name="iptFone">
 
-									<label for="IptCidade">Cidade/UF:</label>
+									<label id="lblCidade" for="IptCidade">Cidade/UF:</label>
 									<input type="text" id="iptCidade" name="iptCidade">
 								</li>
-								<li>
-									<label for="txtAreaMensagem">Mensagem:</label>
+								<li class="liCampoTextArea">
+									<label id="lblMensagem" for="txtAreaMensagem">Mensagem:</label>
 									<textarea name="txtAreaMensagem" id="txtAreaMensagem" cols="30" rows="10"></textarea>
 								</li>
 								<li>
