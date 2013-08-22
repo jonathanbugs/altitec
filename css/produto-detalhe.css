@@ -146,9 +146,21 @@ SIDEBAR
 --------------------------------------------*/
 .ttProdutosSide {
 	display: block;
-	width: 209px;
+	width: 166px;
 	line-height: 35px;
-	height: 35px; 	
+	height: 35px;
+	padding-right: 43px;
+	color: #FFF;
+	font-size: 18px;
+	background: url("../img/backgrounds/bg_tt_produtos_side.png") no-repeat right bottom;	
+}
+
+.ttProdutosSide span {
+	display: block;
+	padding-left: 20px;
+	line-height: 35px;
+	height: 35px;
+	background: url("../img/backgrounds/bg_tt_produtos_side.png") no-repeat left top;	
 }
 
 
