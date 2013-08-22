@@ -73,7 +73,41 @@
 
 			<div class="container">
 				<section id="novidades">
-					
+					<div class="blocoTitulo">
+						<span class="titulo">Novidades</span>
+						<span class="triangulo"></span>
+					</div>
+					<div class="containerNovidades clearfix">
+						<ul id="novidadesUl" class="clearfix">
+							<li class="novidadesLi">
+								<a class="novidadesLink" href="javascript:;">
+									<img class="novidadesImg geralTransition" src="img/novidades/novidade.jpg" alt="">
+									<span class="novidadesTitulo">Conheça o novo produto</span>
+								</a>
+							</li>
+							<li class="novidadesLi">
+								<a class="novidadesLink" href="javascript:;">
+									<img class="novidadesImg geralTransition" src="img/novidades/novidade.jpg" alt="">
+									<span class="novidadesTitulo">Conheça o novo produto</span>
+								</a>
+							</li>
+							<li class="novidadesLi">
+								<a class="novidadesLink" href="javascript:;">
+									<img class="novidadesImg geralTransition" src="img/novidades/novidade.jpg" alt="">
+									<span class="novidadesTitulo">Conheça o novo produto</span>
+								</a>
+							</li>
+							<li class="novidadesLi novidadesLiLast">
+								<a class="novidadesLink" href="javascript:;">
+									<img class="novidadesImg geralTransition" src="img/novidades/novidade.jpg" alt="">
+									<span class="novidadesTitulo">Conheça o novo produto</span>
+								</a>
+							</li>
+						</ul>
+						<div id="facebook">
+							<div class="fb-like-box" data-href="https://www.facebook.com/cssroots" data-width="235" data-height="245" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>
+						</div>
+					</div>
 				</section>
 			</div>
 		</section>
@@ -81,6 +115,15 @@
 		<footer>
 			<?php include "includes/rodape.php"; ?>
 		</footer>
+
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
 
 		
 		<script src="js/vendor/jquery-1.9.1.min.js"></script>
