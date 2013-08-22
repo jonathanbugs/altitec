@@ -113,7 +113,7 @@
 							<li>
 								<a href="javascript:;">Nome Categoria</a>
 							</li>
-							<li>
+							<li class="subCategoriaAberta">
 								<a href="javascript:;">Nome Categoria</a>
 								<ul>
 									<li><a href="javascript:;">Nome Categoria</a></li>
