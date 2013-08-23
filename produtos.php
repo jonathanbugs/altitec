@@ -37,15 +37,15 @@
 		<section id="conteudoPrincipal">
 			<div class="container clearfix">
 				<div id="main">
-					<div class="clearfix headerProduto">
-						<h2 class="ttSecao">Produtos</h2>
+					<div class="clearfix headerSessao">
+						<h2 class="tituloSessao">Produtos</h2>
 						<ul class="migalhaPao">
 							<li><a href="javascript:;">principal</a></li>
 							<li class="last"><a href="javascript:;">produtos</a></li>
 						</ul>
 					</div>
 
-					<div id="produtosDiv">
+					<div id="sessaoConteudo">
 						<ul id="produtosUl">
 							<li class="produtosLi">
 								<a class="produtosLink" href="javascript:;">

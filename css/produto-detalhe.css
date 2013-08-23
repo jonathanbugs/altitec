@@ -1,72 +1,3 @@
-/* -----------------------------
- DEPOIS MOVER PARA TEMPLATE 
- -----------------------------*/
- #main {
- 	float: left;
- 	width: 600px;
- 	position: relative;
- 	background: url("../img/backgrounds/bg_main.png") no-repeat center bottom;
- }
-
- #sidebar {
- 	float: right;
- 	width: 330px;
- 	padding-top: 20px;
- }
-
- #sobreProduto {
- 	background: #FFF;
- 	padding: 30px;
- }
-
-.headerProduto {
-	position: relative;
-}
-
-.ttNomeProduto {
-	padding: 100px 0 5px 0;
-	font-size: 18px;
-	color: #004533;
-}
-
-.migalhaPao {
-	height: 30px;
-}
-
-.migalhaPao li a {
-	color: #000000;
-	font-size: 11px;
-	text-decoration: none;
-}
-
-.migalhaPao li {
-	float: left; 
-	position: relative;
-	padding-right: 9px;
-	margin-right: 5px;
-}
-
-.migalhaPao li:after {
-	content: "/";
-	display: block;
-	position: absolute;
-	top: 1px;
-	right: 0;
-}
-
-.migalhaPao li.last:after {
-	content: none;
-}
-
-.migalhaPao li a:hover {
-	text-decoration: underline;
-}
-
-.migalhaPao li.last a:hover {
-	text-decoration: none;
-	cursor: default;
-}
-
 .ttCategoria {
 	position: absolute;
 	right: 0;
@@ -85,16 +16,6 @@
 	height: 34px; 
 	padding-left: 32px;
 	background: url("../img/backgrounds/bg_tt_categoria_sobre_produtos.png") no-repeat left top;
-}
-
-.cms img {
-	padding-bottom: 30px;
-}
-
-.cms p {
-	font-size: 12px;
-	line-height: 18px;
-	padding-bottom: 30px;
 }
 
 .btRealizarOrcamento {
@@ -123,40 +44,6 @@
 
 .btRealizarOrcamento:hover span {
 	background-position: left -178px;
-}
-
-.voltarTopo{
-	padding-top: 18px;
-	height: 82px;
-}
-
-#linkTopo {
-	width: 240px;
-	height: 82px;
-	margin: 0 auto;
-}
-
-
-/* -------------------------------------------
-SIDEBAR 
---------------------------------------------*/
-.ttProdutosSide {
-	display: block;
-	width: 166px;
-	line-height: 35px;
-	height: 35px;
-	padding-right: 43px;
-	color: #FFF;
-	font-size: 18px;
-	background: url("../img/backgrounds/bg_tt_produtos_side.png") no-repeat right bottom;	
-}
-
-.ttProdutosSide span {
-	display: block;
-	padding-left: 20px;
-	line-height: 35px;
-	height: 35px;
-	background: url("../img/backgrounds/bg_tt_produtos_side.png") no-repeat left top;	
 }
 
 #navLocal {

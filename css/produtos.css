@@ -1,259 +1,45 @@
-/* -----------------------------
- DEPOIS MOVER PARA TEMPLATE 
- -----------------------------*/
- #main {
- 	float: left;
- 	width: 600px;
- 	position: relative;
- 	background: url("../img/backgrounds/bg_main.png") no-repeat center bottom;
- }
-
- #sidebar {
- 	float: right;
- 	width: 330px;
- 	padding-top: 20px;
- }
-
- #sobreProduto {
- 	background: #FFF;
- 	padding: 30px;
- }
-
-.headerProduto {
-	position: relative;
+#produtosUl {
+	margin-top: 45px;
 }
 
-.ttNomeProduto {
-	padding: 100px 0 5px 0;
-	font-size: 18px;
-	color: #004533;
-}
-
-.migalhaPao {
-	height: 30px;
-}
-
-.migalhaPao li a {
-	color: #000000;
-	font-size: 11px;
-	text-decoration: none;
-}
-
-.migalhaPao li {
-	float: left; 
-	position: relative;
-	padding-right: 9px;
-	margin-right: 5px;
-}
-
-.migalhaPao li:after {
-	content: "/";
-	display: block;
-	position: absolute;
-	top: 1px;
-	right: 0;
-}
-
-.migalhaPao li.last:after {
-	content: none;
-}
-
-.migalhaPao li a:hover {
-	text-decoration: underline;
-}
-
-.migalhaPao li.last a:hover {
-	text-decoration: none;
-	cursor: default;
-}
-
-.ttCategoria {
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	color: #FFF;
-	font-size: 12px;
-	line-height: 34px;
-	height: 34px;
-	padding-right: 32px;
-	background: url("../img/backgrounds/bg_tt_categoria_sobre_produtos.png") no-repeat right bottom;
-}
-
-.ttCategoria span {
-	display: block;
-	line-height: 34px;
-	height: 34px; 
-	padding-left: 32px;
-	background: url("../img/backgrounds/bg_tt_categoria_sobre_produtos.png") no-repeat left top;
-}
-
-.cms img {
-	padding-bottom: 30px;
-}
-
-.cms p {
-	font-size: 12px;
-	line-height: 18px;
-	padding-bottom: 30px;
-}
-
-.btRealizarOrcamento {
-	font-size: 14px;
-	color: #656565;
-	line-height: 39px;
-	height: 39px;
+.produtosLi {
+	width: 117px;
 	text-align: center;
+	float: left;
+	margin: 0 0 40px 30px;
+}
+
+.produtosLink {
 	text-decoration: none;
 	display: block;
-	padding-right: 30px;
-	background: url("../img/botoes/bt_realizar_orcamento.png") no-repeat right -69px;
+	height: 100%;
 }
 
-.btRealizarOrcamento span {
-	padding-left: 30px;
-	background: url("../img/botoes/bt_realizar_orcamento.png") no-repeat left top;
+.blocoTituloProduto {
+	border-top: 10px solid #006633;
+	position: relative;
+}
+
+.produtoBt {
+	background: url('../img/botoes/ver_mais_.png') no-repeat;
+	width: 35px;
+	height: 30px;
+	position: absolute;
+	top: -1px;
+	right: 0;
+}
+
+.produtosTitulo {
+	color: #006633;
+	font-size: 13px;
 	display: block;
-	line-height: 39px;
-	height: 39px;
-}
-
-.btRealizarOrcamento:hover {
-	background-position: right -247px;
-}
-
-.btRealizarOrcamento:hover span {
-	background-position: left -178px;
-}
-
-.voltarTopo{
-	padding-top: 18px;
-	height: 82px;
-}
-
-#linkTopo {
-	width: 240px;
-	height: 82px;
-	margin: 0 auto;
-}
-
-
-/* -------------------------------------------
-SIDEBAR 
---------------------------------------------*/
-.ttProdutosSide {
-	display: block;
-	width: 166px;
-	line-height: 35px;
-	height: 35px;
-	padding-right: 43px;
-	color: #FFF;
-	font-size: 18px;
-	background: url("../img/backgrounds/bg_tt_produtos_side.png") no-repeat right bottom;	
-}
-
-.ttProdutosSide span {
-	display: block;
-	padding-left: 20px;
-	line-height: 35px;
-	height: 35px;
-	background: url("../img/backgrounds/bg_tt_produtos_side.png") no-repeat left top;	
-}
-
-#navLocal {
-	padding-top: 50px;
-}
-
-#navLocal li {
-	border-bottom: 2px solid #b3b3b3;
-}
-
-#navLocal .subCategoriaAberta {
-	border-bottom: none;
-}
-
-#navLocal a {
-	font-size: 18px;
-	color: #1f1f1f;
-	display: block;
+	text-align: left;
 	text-decoration: none;
-	line-height: 110%;
-	padding: 10px 0 10px 10px;
+	line-height: 15px;
+	margin-top: 3px;
+	max-width: 70px;
 }
 
-#navLocal ul ul {
-	background: #cccccc;
-	border-top: 2px solid #b3b3b3;
-}
-
-#navLocal ul ul a {
-	font-size: 14px;
-}
-
-#navLocal a:hover {
-	background: #FFF;
-}
-
-#formOrcamento label{
-	display: block;
-	width: 90px;
-	text-align: right;
-	padding-right: 10px;
-	font-size: 14px;
-	line-height: 40px;
-	float: left;
-}
-
-#formOrcamento {
-	display: none;
-	padding-top: 20px;
-}
-
-#formOrcamento li {
-	height: 40px;
-	margin-bottom: 5px;
-}
-
-#formOrcamento .liCampoTextArea {
-	height: 192px;
-}
-
-#formOrcamento input{
-	float: left;
-	font-family: 'open_sansregular', arial, sans-serif;	
-	border: none;
-	background: #e6e6e6;
-	font-size: 14px;
-	color: #4e7171;
-	padding: 11px;
-	width: 418px;
-}
-
-#formOrcamento #iptFone {
-	width: 140px;
-}
-
-#formOrcamento #iptCidade {
-	width: 156px;
-}
-
-#formOrcamento textarea {
-	float: left;
-	font-family: 'open_sansregular', arial, sans-serif;
-	border: none;
-	background: #e6e6e6;
-	font-size: 14px;
-	color: #4e7171;
-	padding: 11px;
-	width: 418px;
-	height: 150px;
-}
-
-#btEnviarOrcarmento {
-	float: right;
-	background: none;
-	border: none;
-	outline: none;
-	font-size: 22px;
-	color: #4e7171;
-	font-family: 'open_sansregular', arial, sans-serif;
+.produtosLink:hover .produtosTitulo {
+	text-decoration: underline;
 }
