@@ -47,67 +47,20 @@
 }
 
 
-#formOrcamento label{
-	display: block;
-	width: 90px;
-	text-align: right;
-	padding-right: 10px;
-	font-size: 14px;
-	line-height: 40px;
-	float: left;
-}
-
 #formOrcamento {
+	padding: 20px 0;
 	display: none;
-	padding-top: 20px;
 }
 
-#formOrcamento li {
-	height: 40px;
-	margin-bottom: 5px;
-}
 
-#formOrcamento .liCampoTextArea {
-	height: 192px;
-}
 
-#formOrcamento input{
-	float: left;
-	font-family: 'open_sansregular', arial, sans-serif;	
-	border: none;
-	background: #e6e6e6;
-	font-size: 14px;
-	color: #4e7171;
-	padding: 11px;
-	width: 418px;
-}
+@media only screen and (max-width: 1023px) {
+	.tituloSessao {
+		line-height: 1em;
+		font-size: 30px;
+	}
 
-#formOrcamento #iptFone {
-	width: 140px;
-}
-
-#formOrcamento #iptCidade {
-	width: 156px;
-}
-
-#formOrcamento textarea {
-	float: left;
-	font-family: 'open_sansregular', arial, sans-serif;
-	border: none;
-	background: #e6e6e6;
-	font-size: 14px;
-	color: #4e7171;
-	padding: 11px;
-	width: 418px;
-	height: 150px;
-}
-
-#btEnviarOrcarmento {
-	float: right;
-	background: none;
-	border: none;
-	outline: none;
-	font-size: 22px;
-	color: #4e7171;
-	font-family: 'open_sansregular', arial, sans-serif;
+	.migalhaPao {
+		margin-bottom: 50px;
+	}
 }

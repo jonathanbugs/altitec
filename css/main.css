@@ -612,6 +612,7 @@ body {
 
 .cms img {
 	padding-bottom: 30px;
+	width: 100%;
 }
 
 .cms p {
@@ -636,6 +637,96 @@ body {
 	height: 82px;
 	margin: 0 auto;
 }
+
+
+/* FORMULARIO */
+.form .relativeInput,
+.form .relativeTextarea {
+	background: #e6e6e6;
+	float: right;
+	width: 71%;
+	padding: 0 15px;
+	height: 100%;
+}
+
+.form .relativeBt {
+	float: right;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.form label {
+	display: block;
+	width: 20%;
+	text-align: right;
+	padding-right: 10px;
+	font-size: 14px;
+	line-height: 40px;
+	float: left;
+}
+
+.form input {
+	width: 100%;
+	height: 100%;
+	border: none;
+	padding: 0;
+	background: none;
+	color: #4E7171;
+    float: left;
+    font-family: 'open_sansregular',arial,sans-serif;
+    font-size: 14px;
+}
+
+.form li {
+	height: 40px;
+	margin-bottom: 5px;
+	display: block;
+}
+
+.form .liCampoTextArea {
+	height: 172px;
+}
+
+.form .divide {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.form .divide .relativeInput {
+	width: 42%;
+}
+
+.form .divide label {
+	width: 40%;
+}
+
+.form textarea {
+	float: left;
+	font-family: 'open_sansregular', arial, sans-serif;
+	border: none;
+	background: #e6e6e6;
+	font-size: 14px;
+	color: #4e7171;
+	width: 100%;
+	height: 95%;
+}
+
+.form .relativeTextarea {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.form .btEnviar {
+	float: right;
+	background: none;
+	border: none;
+	outline: none;
+	font-size: 22px;
+	color: #4e7171;
+	font-family: 'open_sansregular', arial, sans-serif;
+}
+
 
 @media only screen and (max-width: 1023px) {
 	/* TOPO */
@@ -737,6 +828,45 @@ body {
 	#direitos #logoOfficeArts {
 		float: none;
 		margin: 30px auto 0;
+	}
+
+
+	
+	/* FORMULARIO */
+	.form .relativeInput,
+	.form .relativeTextarea {
+		float: none;
+		width: auto;
+	}
+
+	.form li {
+		margin-bottom: 35px;
+	}
+
+	.form label {
+		width: 100%;
+		float: none;
+		text-align: left;
+		line-height: 1em;
+		padding: 0;
+		margin-bottom: 4px;
+	}
+
+	.form .liCampoTextArea {
+		height: 100px;
+	}
+
+	.form .divide {
+		width: 100%;
+		margin-bottom: 35px;
+	}
+
+	.form .divide .relativeInput {
+		width: auto;
+	}
+
+	.form .divide label {
+		width: 100%;
 	}
 }
 

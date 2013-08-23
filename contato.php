@@ -45,7 +45,7 @@
 						</ul>
 					</div>
 					<div id="sessaoConteudo">
-						<form action="javascript:;" id="formContato">
+						<form action="javascript:;" id="formContato" class="form">
 							<ul>
 								<li>
 									<label id="lblNome" for="iptNome">Nome:</label>
@@ -86,7 +86,7 @@
 
 								<li>
 									<div class="relativeBt clearfix">
-										<button id="btEnviarContato">Enviar</button>
+										<button class="btEnviar" id="btEnviarContato">Enviar</button>
 									</div>
 								</li>
 							</ul>

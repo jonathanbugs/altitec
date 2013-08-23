@@ -46,8 +46,8 @@
 					</div>
 
 					<div id="sessaoConteudo">
-						<ul id="produtosUl" class="clearfix">
-							<li class="produtosLi">
+						<ul id="produtosUl" class="geralTransition clearfix">
+							<li class="produtosLi geralTransition">
 								<a class="produtosLink" href="javascript:;">
 									<img class="produtosImg" src="img/produto.jpg" />
 									<div class="blocoTituloProduto">
@@ -56,7 +56,7 @@
 									</div>
 								</a>
 							</li>
-							<li class="produtosLi">
+							<li class="produtosLi geralTransition">
 								<a class="produtosLink" href="javascript:;">
 									<img class="produtosImg" src="img/produto.jpg" />
 									<div class="blocoTituloProduto">
@@ -65,7 +65,7 @@
 									</div>
 								</a>
 							</li>
-							<li class="produtosLi">
+							<li class="produtosLi geralTransition">
 								<a class="produtosLink" href="javascript:;">
 									<img class="produtosImg" src="img/produto.jpg" />
 									<div class="blocoTituloProduto">
@@ -74,7 +74,7 @@
 									</div>
 								</a>
 							</li>
-							<li class="produtosLi">
+							<li class="produtosLi geralTransition">
 								<a class="produtosLink" href="javascript:;">
 									<img class="produtosImg" src="img/produto.jpg" />
 									<div class="blocoTituloProduto">
@@ -83,7 +83,7 @@
 									</div>
 								</a>
 							</li>
-							<li class="produtosLi">
+							<li class="produtosLi geralTransition">
 								<a class="produtosLink" href="javascript:;">
 									<img class="produtosImg" src="img/produto.jpg" />
 									<div class="blocoTituloProduto">
@@ -92,7 +92,7 @@
 									</div>
 								</a>
 							</li>
-							<li class="produtosLi">
+							<li class="produtosLi geralTransition">
 								<a class="produtosLink" href="javascript:;">
 									<img class="produtosImg" src="img/produto.jpg" />
 									<div class="blocoTituloProduto">
@@ -101,7 +101,7 @@
 									</div>
 								</a>
 							</li>
-							<li class="produtosLi">
+							<li class="produtosLi geralTransition">
 								<a class="produtosLink" href="javascript:;">
 									<img class="produtosImg" src="img/produto.jpg" />
 									<div class="blocoTituloProduto">
@@ -110,7 +110,7 @@
 									</div>
 								</a>
 							</li>
-							<li class="produtosLi">
+							<li class="produtosLi geralTransition">
 								<a class="produtosLink" href="javascript:;">
 									<img class="produtosImg" src="img/produto.jpg" />
 									<div class="blocoTituloProduto">
@@ -119,7 +119,7 @@
 									</div>
 								</a>
 							</li>	
-							<li class="produtosLi">
+							<li class="produtosLi geralTransition">
 								<a class="produtosLink" href="javascript:;">
 									<img class="produtosImg" src="img/produto.jpg" />
 									<div class="blocoTituloProduto">
@@ -128,7 +128,7 @@
 									</div>
 								</a>
 							</li>
-							<li class="produtosLi">
+							<li class="produtosLi geralTransition">
 								<a class="produtosLink" href="javascript:;">
 									<img class="produtosImg" src="img/produto.jpg" />
 									<div class="blocoTituloProduto">
@@ -137,7 +137,7 @@
 									</div>
 								</a>
 							</li>
-							<li class="produtosLi">
+							<li class="produtosLi geralTransition">
 								<a class="produtosLink" href="javascript:;">
 									<img class="produtosImg" src="img/produto.jpg" />
 									<div class="blocoTituloProduto">
@@ -146,7 +146,7 @@
 									</div>
 								</a>
 							</li>
-							<li class="produtosLi">
+							<li class="produtosLi geralTransition">
 								<a class="produtosLink" href="javascript:;">
 									<img class="produtosImg" src="img/produto.jpg" />
 									<div class="blocoTituloProduto">
@@ -155,7 +155,7 @@
 									</div>
 								</a>
 							</li>
-							<li class="produtosLi">
+							<li class="produtosLi geralTransition">
 								<a class="produtosLink" href="javascript:;">
 									<img class="produtosImg" src="img/produto.jpg" />
 									<div class="blocoTituloProduto">
@@ -164,7 +164,7 @@
 									</div>
 								</a>
 							</li>
-							<li class="produtosLi">
+							<li class="produtosLi geralTransition">
 								<a class="produtosLink" href="javascript:;">
 									<img class="produtosImg" src="img/produto.jpg" />
 									<div class="blocoTituloProduto">
@@ -173,7 +173,7 @@
 									</div>
 								</a>
 							</li>
-							<li class="produtosLi">
+							<li class="produtosLi geralTransition">
 								<a class="produtosLink" href="javascript:;">
 									<img class="produtosImg" src="img/produto.jpg" />
 									<div class="blocoTituloProduto">
@@ -182,7 +182,7 @@
 									</div>
 								</a>
 							</li>
-							<li class="produtosLi">
+							<li class="produtosLi geralTransition">
 								<a class="produtosLink" href="javascript:;">
 									<img class="produtosImg" src="img/produto.jpg" />
 									<div class="blocoTituloProduto">

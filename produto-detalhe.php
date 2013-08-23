@@ -38,7 +38,7 @@
 			<div class="container clearfix">
 				<div id="main">
 					<div class="clearfix headerSessao">
-						<h2 class="tituloSessao">Descensor ID S Petzl</h2>
+						<h2 class="tituloSessao">Descensor IDS Petzl</h2>
 						<ul class="migalhaPao">
 							<li><a href="javascript:;">principal</a></li>
 							<li><a href="javascript:;">produtos</a></li>
@@ -58,29 +58,49 @@
 
 						<a href="javascript:;" class="btRealizarOrcamento"><span>(Realizar orçamento)</span></a>
 
-						<form action="javascript:;" id="formOrcamento">
+						<form action="javascript:;" id="formOrcamento" class="form">
 							<ul>
 								<li>
 									<label id="lblNome" for="iptNome">Nome:</label>
-									<input type="text" id="iptNome" name="iptNome">
+									<div class="relative relativeInput clearfix">
+										<input type="text" id="iptNome" name="iptNome">
+									</div>
 								</li>
+
 								<li>
 									<label id="lblEmail" for="iptEmail">E-mail:</label>
-									<input type="text" id="iptEmail" name="iptEmail">
+									<div class="relative relativeInput clearfix">
+										<input type="text" id="iptEmail" name="iptEmail">
+									</div>
 								</li>
-								<li>
-									<label id="lblFone" for="iptFone">Fone:</label>
-									<input type="text" id="iptFone" name="iptFone">
 
-									<label id="lblCidade" for="IptCidade">Cidade/UF:</label>
-									<input type="text" id="iptCidade" name="iptCidade">
+								<li>
+									<div class="divide clearfix">
+										<label id="lblFone" for="iptFone">Fone:</label>
+										<div class="relative relativeInput clearfix">
+											<input type="text" id="iptEmail" name="iptEmail">
+										</div>
+									</div>
+
+									<div class="divide clearfix">
+										<label id="lblCidade" for="IptCidade">Cidade/UF:</label>
+										<div class="relative relativeInput clearfix">
+											<input type="text" id="iptCidade" name="iptCidade">
+										</div>
+									</div>
 								</li>
+
 								<li class="liCampoTextArea">
 									<label id="lblMensagem" for="txtAreaMensagem">Mensagem:</label>
-									<textarea name="txtAreaMensagem" id="txtAreaMensagem" cols="30" rows="10"></textarea>
+									<div class="relative relativeTextarea clearfix">
+										<textarea name="txtAreaMensagem" id="txtAreaMensagem" cols="30" rows="10"></textarea>
+									</div>
 								</li>
+
 								<li>
-									<button id="btEnviarOrcarmento">Enviar</button>
+									<div class="relativeBt clearfix">
+										<button class="btEnviar" id="btEnviarContato">Enviar</button>
+									</div>
 								</li>
 							</ul>
 						</form>	
