@@ -88,6 +88,7 @@
 	margin: 0;
 	top: -38px;
 	left: 0;
+	background: #FFF;
 }
 
 .rslides li {
@@ -152,6 +153,7 @@
 #produtos {
 	background: url('../img/backgrounds/bg_produtos.png') repeat-x;
 	height: 288px;
+	margin-top: -38px;
 }
 
 .containerProdutos {
