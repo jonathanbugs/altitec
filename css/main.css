@@ -603,9 +603,103 @@ body {
 	margin: 0 auto;
 }
 
-/* for high resolution display */
-@media only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
-	
+@media only screen and (max-width: 1023px) {
+	/* TOPO */
+	#textoTopo span {
+		text-align: center;
+		float: none;
+		padding: 0 30px;
+		line-height: 30px;
+	}
+
+
+
+	/* CONTEUDO */
+	.container {
+		text-align: center;
+	}
+
+	#conteudoPrincipal {
+		margin: 0 20px;
+	}
+
+	#main {
+		float: none;
+		margin: 0 auto;
+		width: auto;
+		max-width: 600px;
+	}
+
+	#sidebar {
+		float: none;
+	    margin: 0 auto;
+	    width: auto;
+	    max-width: 330px;
+	}
+
+	#sidebar img {
+		display: block;
+		width: 100%;
+	}
+
+	.headerSessao {
+		text-align: center;
+	} 
+
+	.migalhaPao {
+		display: inline-block;
+	}
+
+
+
+	/* RODAPE */
+	#rodapeLeft {
+		width: 300px;
+		margin: 0 auto;
+		float: none;
+	}
+
+	#logosUl {
+		text-align: center;
+		width: 160px;
+		margin: 0 auto 30px;
+	}
+
+	.logosLi {
+		float: none;
+		margin-bottom: 15px;
+	}
+
+	#contatos {
+		display: none;
+	}
+
+	.endereco,
+	.linkChegar {
+		text-align: center;
+		display: block;
+	}
+
+	#rodapeConteudo .blocoMenu,
+	#menuPrincipalRodapeUl {
+		display: none;
+	}
+
+	#direitos {
+		margin-top: 0;
+	}
+
+	#direitos .txt {
+		text-align: center;
+		display: inline-block;
+		float: none;
+		padding: 0 30px;
+	}
+
+	#direitos #logoOfficeArts {
+		float: none;
+		margin: 30px auto 0;
+	}
 }
 
 /* ==========================================================================

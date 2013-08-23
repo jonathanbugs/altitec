@@ -1,6 +1,5 @@
 $(document).ready(function(){
 	placeHolder();
-	imgRetina();
 	sliderBanner();
 	scrollTopo();
 	galeriaProdutos();
@@ -21,17 +20,6 @@ function placeHolder(){
 	}).each(function(){
 		if ($(this).val()===''){ $(this).prev().show(); } else { $(this).prev().hide(); }
 	});
-}
-
-function imgRetina(){
-	if (window.devicePixelRatio == 2) {
-		$("img").each(function(){
-			var nomeImagem = $(this).attr("src");
-
-			var nomeImagemAlta = nomeImagem.replace("img/", "img/2x");
-			$(this).attr("src", nomeImagemAlta);	
-		});		
-	}
 }
 
 function sliderBanner(){
