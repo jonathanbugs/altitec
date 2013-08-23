@@ -6,7 +6,6 @@
 }
 
 #bannerUl {
-	height: 400px;
 	background: #FFF;
 }
 
@@ -17,8 +16,10 @@
 .textoBanner {
 	background: #FFF;
 	color: #00682e;
-	padding: 23px 20px;
+	padding: 23px 0;
 	position: relative;
+	width: 100%;
+	float: left;
 }
 
 .textoBanner .textoTitulo {
@@ -27,11 +28,13 @@
 	padding-bottom: 22px;
 	font-weight: bold;
 	letter-spacing: -0.05em;
+	padding-left: 22px;
 }
 
 .textoBanner .textoDescricao {
 	display: block;
 	font-size: 15px;
+	padding-left: 22px;
 }
 
 .bannerLink {
@@ -69,6 +72,46 @@
 
 #banner .trianguloGeral {
 	top: 200px;
+}
+
+
+
+.containerBanner {
+	position: relative;
+}
+
+.rslides {
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	top: 0;
+	left: 0;
+}
+
+.rslides li {
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+.rslides li:first-child {
+	position: relative;
+	display: block;
+	float: left;
+}
+
+.rslides img {
+	display: block;
+	height: auto;
+	float: left;
+	width: 100%;
+	border: 0;
 }
 
 
@@ -323,6 +366,11 @@
 	float: right;
 }
 
+.voltarTopo {
+	height: auto;
+	padding-top: 0;
+}
+
 @media only screen and (max-width: 1023px) {
 	#logoFixo,
 	.trianguloGeral {
@@ -359,6 +407,22 @@
 	#facebook {
 		float: none;
 		margin: 30px auto;
+	}
+}
+
+@media only screen and (max-width: 620px) {
+	.textoBanner .textoTitulo {
+		font-size: 24px;
+	}
+
+	.textoBanner .textoDescricao {
+		font-size: 12px;
+	}
+
+	.bannerLink {
+		top: 25px;
+		right: 30px;
+		font-size: 14px;
 	}
 }
 
