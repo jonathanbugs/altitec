@@ -1,12 +1,15 @@
 #treinamentosUl li{
 	margin-bottom: 15px;
 	background: #e6e6e6;
+	position: relative;
+	cursor: pointer;
 }
 
 .nomeTreinamento {
 	font-size: 16px;
 	color: #006732;
-	padding-left: 25px 25px 0 25px;
+	padding: 25px 25px 20px 25px;
+	display: block;
 }
 
 .conteudoAccordion {
@@ -24,3 +27,40 @@
 	padding-right: 10px;
 	background: #cccccc;
 }
+
+#treinamentosUl .cms {
+	padding: 25px 25px 0 25px; 
+}
+
+.btMaisInformacoes {
+	float: left;
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+	background: #009933;
+	color: #FFF;
+	text-align: center;
+	font-size: 14px;
+	text-decoration: none;
+	margin: 0 0 25px 25px;
+}
+
+.btFecharAccordion {
+	float: right;
+	height: 30px;
+	line-height: 30px;
+	color: #4e4e4e;
+	font-size: 16px;
+	text-decoration: none;
+	margin: 0 25px 25px 0;
+}
+
+.accordionAberto .btExplore {
+	display: none;
+}
+
+#treinamentosUl  .accordionAberto {
+	background: #cccccc;
+}
+
+

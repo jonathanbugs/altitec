@@ -51,17 +51,201 @@
 								<span class="nomeTreinamento">Trabalho em Altura - NR 35</span>
 								<a href="javascript:;" class="btExplore">Explore</a>
 								<div class="conteudoAccordion">
-									<img src="" alt="">
-									<p>
-										Capacitar profissionais que interajam direta e indiretamente em espaços confinados a fim de garantir permanentemente a segurança e saúde dos trabalhadores em espaços confinados. O treinamento cumprirá as diretrizes da NR 33 e NBR 14787.<br/>
-										1. Supervisor de Entrada em Espaço Confinado – 40h<br/>
-										2. Vigia e Trabalhador em Espaço Confinado – 16h<br/>
-										3. Capacitação periódica/reciclagem – 8h<br/>
-										4. Resgate em Espaço Confinado – 16h
-									</p>
+									<img src="img/img_treinamento.jpg" alt="">
+									<div class="cms">
+										<p>
+											Capacitar profissionais que interajam direta e indiretamente em espaços confinados a fim de garantir permanentemente a segurança e saúde dos trabalhadores em espaços confinados. O treinamento cumprirá as diretrizes da NR 33 e NBR 14787.<br/>
+											1. Supervisor de Entrada em Espaço Confinado – 40h<br/>
+											2. Vigia e Trabalhador em Espaço Confinado – 16h<br/>
+											3. Capacitação periódica/reciclagem – 8h<br/>
+											4. Resgate em Espaço Confinado – 16h
+										</p>
+									</div>
 
-									<a href="javascript:;" class="btMaisInformacoes">Mais Informações</a>
-									<a href="javascript:;" class="btFecharAccordion">Fechar</a>
+									<div class="clearfix">
+										<a href="javascript:;" class="btMaisInformacoes">Mais Informações</a>
+										<a href="javascript:;" class="btFecharAccordion">Fechar</a>
+									</div>
+								</div>
+							</li>							<li>
+								<span class="nomeTreinamento">Trabalho em Altura - NR 35</span>
+								<a href="javascript:;" class="btExplore">Explore</a>
+								<div class="conteudoAccordion">
+									<img src="img/img_treinamento.jpg" alt="">
+									<div class="cms">
+										<p>
+											Capacitar profissionais que interajam direta e indiretamente em espaços confinados a fim de garantir permanentemente a segurança e saúde dos trabalhadores em espaços confinados. O treinamento cumprirá as diretrizes da NR 33 e NBR 14787.<br/>
+											1. Supervisor de Entrada em Espaço Confinado – 40h<br/>
+											2. Vigia e Trabalhador em Espaço Confinado – 16h<br/>
+											3. Capacitação periódica/reciclagem – 8h<br/>
+											4. Resgate em Espaço Confinado – 16h
+										</p>
+									</div>
+
+									<div class="clearfix">
+										<a href="javascript:;" class="btMaisInformacoes">Mais Informações</a>
+										<a href="javascript:;" class="btFecharAccordion">Fechar</a>
+									</div>
+								</div>
+							</li>							<li>
+								<span class="nomeTreinamento">Trabalho em Altura - NR 35</span>
+								<a href="javascript:;" class="btExplore">Explore</a>
+								<div class="conteudoAccordion">
+									<img src="img/img_treinamento.jpg" alt="">
+									<div class="cms">
+										<p>
+											Capacitar profissionais que interajam direta e indiretamente em espaços confinados a fim de garantir permanentemente a segurança e saúde dos trabalhadores em espaços confinados. O treinamento cumprirá as diretrizes da NR 33 e NBR 14787.<br/>
+											1. Supervisor de Entrada em Espaço Confinado – 40h<br/>
+											2. Vigia e Trabalhador em Espaço Confinado – 16h<br/>
+											3. Capacitação periódica/reciclagem – 8h<br/>
+											4. Resgate em Espaço Confinado – 16h
+										</p>
+									</div>
+
+									<div class="clearfix">
+										<a href="javascript:;" class="btMaisInformacoes">Mais Informações</a>
+										<a href="javascript:;" class="btFecharAccordion">Fechar</a>
+									</div>
+								</div>
+							</li>							<li>
+								<span class="nomeTreinamento">Trabalho em Altura - NR 35</span>
+								<a href="javascript:;" class="btExplore">Explore</a>
+								<div class="conteudoAccordion">
+									<img src="img/img_treinamento.jpg" alt="">
+									<div class="cms">
+										<p>
+											Capacitar profissionais que interajam direta e indiretamente em espaços confinados a fim de garantir permanentemente a segurança e saúde dos trabalhadores em espaços confinados. O treinamento cumprirá as diretrizes da NR 33 e NBR 14787.<br/>
+											1. Supervisor de Entrada em Espaço Confinado – 40h<br/>
+											2. Vigia e Trabalhador em Espaço Confinado – 16h<br/>
+											3. Capacitação periódica/reciclagem – 8h<br/>
+											4. Resgate em Espaço Confinado – 16h
+										</p>
+									</div>
+
+									<div class="clearfix">
+										<a href="javascript:;" class="btMaisInformacoes">Mais Informações</a>
+										<a href="javascript:;" class="btFecharAccordion">Fechar</a>
+									</div>
+								</div>
+							</li>							<li>
+								<span class="nomeTreinamento">Trabalho em Altura - NR 35</span>
+								<a href="javascript:;" class="btExplore">Explore</a>
+								<div class="conteudoAccordion">
+									<img src="img/img_treinamento.jpg" alt="">
+									<div class="cms">
+										<p>
+											Capacitar profissionais que interajam direta e indiretamente em espaços confinados a fim de garantir permanentemente a segurança e saúde dos trabalhadores em espaços confinados. O treinamento cumprirá as diretrizes da NR 33 e NBR 14787.<br/>
+											1. Supervisor de Entrada em Espaço Confinado – 40h<br/>
+											2. Vigia e Trabalhador em Espaço Confinado – 16h<br/>
+											3. Capacitação periódica/reciclagem – 8h<br/>
+											4. Resgate em Espaço Confinado – 16h
+										</p>
+									</div>
+
+									<div class="clearfix">
+										<a href="javascript:;" class="btMaisInformacoes">Mais Informações</a>
+										<a href="javascript:;" class="btFecharAccordion">Fechar</a>
+									</div>
+								</div>
+							</li>							<li>
+								<span class="nomeTreinamento">Trabalho em Altura - NR 35</span>
+								<a href="javascript:;" class="btExplore">Explore</a>
+								<div class="conteudoAccordion">
+									<img src="img/img_treinamento.jpg" alt="">
+									<div class="cms">
+										<p>
+											Capacitar profissionais que interajam direta e indiretamente em espaços confinados a fim de garantir permanentemente a segurança e saúde dos trabalhadores em espaços confinados. O treinamento cumprirá as diretrizes da NR 33 e NBR 14787.<br/>
+											1. Supervisor de Entrada em Espaço Confinado – 40h<br/>
+											2. Vigia e Trabalhador em Espaço Confinado – 16h<br/>
+											3. Capacitação periódica/reciclagem – 8h<br/>
+											4. Resgate em Espaço Confinado – 16h
+										</p>
+									</div>
+
+									<div class="clearfix">
+										<a href="javascript:;" class="btMaisInformacoes">Mais Informações</a>
+										<a href="javascript:;" class="btFecharAccordion">Fechar</a>
+									</div>
+								</div>
+							</li>							<li>
+								<span class="nomeTreinamento">Trabalho em Altura - NR 35</span>
+								<a href="javascript:;" class="btExplore">Explore</a>
+								<div class="conteudoAccordion">
+									<img src="img/img_treinamento.jpg" alt="">
+									<div class="cms">
+										<p>
+											Capacitar profissionais que interajam direta e indiretamente em espaços confinados a fim de garantir permanentemente a segurança e saúde dos trabalhadores em espaços confinados. O treinamento cumprirá as diretrizes da NR 33 e NBR 14787.<br/>
+											1. Supervisor de Entrada em Espaço Confinado – 40h<br/>
+											2. Vigia e Trabalhador em Espaço Confinado – 16h<br/>
+											3. Capacitação periódica/reciclagem – 8h<br/>
+											4. Resgate em Espaço Confinado – 16h
+										</p>
+									</div>
+
+									<div class="clearfix">
+										<a href="javascript:;" class="btMaisInformacoes">Mais Informações</a>
+										<a href="javascript:;" class="btFecharAccordion">Fechar</a>
+									</div>
+								</div>
+							</li>							<li>
+								<span class="nomeTreinamento">Trabalho em Altura - NR 35</span>
+								<a href="javascript:;" class="btExplore">Explore</a>
+								<div class="conteudoAccordion">
+									<img src="img/img_treinamento.jpg" alt="">
+									<div class="cms">
+										<p>
+											Capacitar profissionais que interajam direta e indiretamente em espaços confinados a fim de garantir permanentemente a segurança e saúde dos trabalhadores em espaços confinados. O treinamento cumprirá as diretrizes da NR 33 e NBR 14787.<br/>
+											1. Supervisor de Entrada em Espaço Confinado – 40h<br/>
+											2. Vigia e Trabalhador em Espaço Confinado – 16h<br/>
+											3. Capacitação periódica/reciclagem – 8h<br/>
+											4. Resgate em Espaço Confinado – 16h
+										</p>
+									</div>
+
+									<div class="clearfix">
+										<a href="javascript:;" class="btMaisInformacoes">Mais Informações</a>
+										<a href="javascript:;" class="btFecharAccordion">Fechar</a>
+									</div>
+								</div>
+							</li>							<li>
+								<span class="nomeTreinamento">Trabalho em Altura - NR 35</span>
+								<a href="javascript:;" class="btExplore">Explore</a>
+								<div class="conteudoAccordion">
+									<img src="img/img_treinamento.jpg" alt="">
+									<div class="cms">
+										<p>
+											Capacitar profissionais que interajam direta e indiretamente em espaços confinados a fim de garantir permanentemente a segurança e saúde dos trabalhadores em espaços confinados. O treinamento cumprirá as diretrizes da NR 33 e NBR 14787.<br/>
+											1. Supervisor de Entrada em Espaço Confinado – 40h<br/>
+											2. Vigia e Trabalhador em Espaço Confinado – 16h<br/>
+											3. Capacitação periódica/reciclagem – 8h<br/>
+											4. Resgate em Espaço Confinado – 16h
+										</p>
+									</div>
+
+									<div class="clearfix">
+										<a href="javascript:;" class="btMaisInformacoes">Mais Informações</a>
+										<a href="javascript:;" class="btFecharAccordion">Fechar</a>
+									</div>
+								</div>
+							</li>							<li>
+								<span class="nomeTreinamento">Trabalho em Altura - NR 35</span>
+								<a href="javascript:;" class="btExplore">Explore</a>
+								<div class="conteudoAccordion">
+									<img src="img/img_treinamento.jpg" alt="">
+									<div class="cms">
+										<p>
+											Capacitar profissionais que interajam direta e indiretamente em espaços confinados a fim de garantir permanentemente a segurança e saúde dos trabalhadores em espaços confinados. O treinamento cumprirá as diretrizes da NR 33 e NBR 14787.<br/>
+											1. Supervisor de Entrada em Espaço Confinado – 40h<br/>
+											2. Vigia e Trabalhador em Espaço Confinado – 16h<br/>
+											3. Capacitação periódica/reciclagem – 8h<br/>
+											4. Resgate em Espaço Confinado – 16h
+										</p>
+									</div>
+
+									<div class="clearfix">
+										<a href="javascript:;" class="btMaisInformacoes">Mais Informações</a>
+										<a href="javascript:;" class="btFecharAccordion">Fechar</a>
+									</div>
 								</div>
 							</li>
 						</ul>
@@ -118,6 +302,8 @@
 		<script src="js/vendor/jquery-1.9.1.min.js"></script>
 		<script src="js/plugins.js"></script>
 		<script src="js/main.js"></script>
+		<script src="js/treinamentos.js"></script>
+		
 		
 		<!-- Google Analytics -->
 		<script>
