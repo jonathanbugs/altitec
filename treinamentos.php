@@ -22,7 +22,7 @@
 
 		<link rel="stylesheet" href="css/reset.css"/>
 		<link rel="stylesheet" href="css/main.css"/>
-		<link rel="stylesheet" href="css/produto-detalhe.css"/>
+		<link rel="stylesheet" href="css/treinamentos.css"/>
 		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
 	</head>
 	<body>
@@ -38,52 +38,34 @@
 			<div class="container clearfix">
 				<div id="main">
 					<div class="clearfix headerSessao">
-						<h2 class="tituloSessao">Descensor ID S Petzl</h2>
+						<h2 class="tituloSessao">Treinamentos</h2>
 						<ul class="migalhaPao">
 							<li><a href="javascript:;">principal</a></li>
-							<li><a href="javascript:;">produtos</a></li>
-							<li><a href="javascript:;">nome categoria</a></li>
-							<li class="last"><a href="javascript:;">Descensor ID S Petzl</a></li>
+							<li class="last"><a href="javascript:;">treinamentos</a></li>
 						</ul>
-					
-						<span class="ttCategoria"><span>Nome Categoria</span></span>
 					</div>
+
 					<div id="sessaoConteudo">
-						<div class="cms">
-							<img src="img/produto_detalhe.jpg" alt="">
+						<ul id="treinamentosUl">
+							<li>
+								<span class="nomeTreinamento">Trabalho em Altura - NR 35</span>
+								<a href="javascript:;" class="btExplore">Explore</a>
+								<div class="conteudoAccordion">
+									<img src="" alt="">
+									<p>
+										Capacitar profissionais que interajam direta e indiretamente em espaços confinados a fim de garantir permanentemente a segurança e saúde dos trabalhadores em espaços confinados. O treinamento cumprirá as diretrizes da NR 33 e NBR 14787.<br/>
+										1. Supervisor de Entrada em Espaço Confinado – 40h<br/>
+										2. Vigia e Trabalhador em Espaço Confinado – 16h<br/>
+										3. Capacitação periódica/reciclagem – 8h<br/>
+										4. Resgate em Espaço Confinado – 16h
+									</p>
 
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sodales arcu sit amet elit eleifend, porttitor interdum neque dictum. Ut posuere porta ligula, varius mattis nibh malesuada vel. Cras vel leo suscipit est eleifend posuere. Donec vel pulvinar felis, non molestie quam. Ut nec facilisis leo. Sed ut gravida ipsum. Suspendisse potenti. Donec eu feugiat nibh. Nunc vitae dictum lacus. Nam tempor ipsum id risus aliquet, in convallis tortor tristique.</p>
-							<p>Integer lobortis ligula et dui porttitor commodo. Proin viverra magna in augue hendrerit laoreet. Fusce ut mattis erat. Pellentesque sed tortor erat. Fusce commodo fringilla porta. Nam lorem diam, rhoncus eget blandit nec, semper cursus leo. Mauris a justo a ligula vestibulum mollis placerat vel eros. Integer massa enim, laoreet id velit ut, dictum blandit purus. Phasellus non rutrum dolor, et vestibulum turpis. Mauris ut vestibulum massa. Morbi a erat sem. Sed libero orci, euismod non tincidunt consequat, bibendum et magna. Suspendisse potenti. Nam aliquet, eros a mattis pellentesque, ante nulla pharetra justo, eget dapibus eros purus vel sem.</p>
-						</div>
+									<a href="javascript:;" class="btMaisInformacoes">Mais Informações</a>
+									<a href="javascript:;" class="btFecharAccordion">Fechar</a>
+								</div>
+							</li>
+						</ul>
 
-						<a href="javascript:;" class="btRealizarOrcamento"><span>(Realizar orçamento)</span></a>
-
-						<form action="javascript:;" id="formOrcamento">
-							<ul>
-								<li>
-									<label id="lblNome" for="iptNome">Nome:</label>
-									<input type="text" id="iptNome" name="iptNome">
-								</li>
-								<li>
-									<label id="lblEmail" for="iptEmail">E-mail:</label>
-									<input type="text" id="iptEmail" name="iptEmail">
-								</li>
-								<li>
-									<label id="lblFone" for="iptFone">Fone:</label>
-									<input type="text" id="iptFone" name="iptFone">
-
-									<label id="lblCidade" for="IptCidade">Cidade/UF:</label>
-									<input type="text" id="iptCidade" name="iptCidade">
-								</li>
-								<li class="liCampoTextArea">
-									<label id="lblMensagem" for="txtAreaMensagem">Mensagem:</label>
-									<textarea name="txtAreaMensagem" id="txtAreaMensagem" cols="30" rows="10"></textarea>
-								</li>
-								<li>
-									<button id="btEnviarOrcarmento">Enviar</button>
-								</li>
-							</ul>
-						</form>	
 					</div>
 
 					<div class="voltarTopo">
@@ -136,7 +118,6 @@
 		<script src="js/vendor/jquery-1.9.1.min.js"></script>
 		<script src="js/plugins.js"></script>
 		<script src="js/main.js"></script>
-		<script src="js/produto-detalhe.js"></script>
 		
 		<!-- Google Analytics -->
 		<script>

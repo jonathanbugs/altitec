@@ -1,12 +1,8 @@
-#produtosUl {
-	margin-top: 45px;
-}
-
 .produtosLi {
 	width: 117px;
 	text-align: center;
 	float: left;
-	margin: 0 0 40px 30px;
+	margin: 0 0 40px 14px;
 }
 
 .produtosLink {
@@ -21,7 +17,7 @@
 }
 
 .produtoBt {
-	background: url('../img/botoes/ver_mais_.png') no-repeat;
+	background: url('../img/botoes/ver_mais_sidebar.png') no-repeat;
 	width: 35px;
 	height: 30px;
 	position: absolute;
@@ -42,4 +38,32 @@
 
 .produtosLink:hover .produtosTitulo {
 	text-decoration: underline;
+}
+
+.btCarregarMais {
+	font-size: 14px;
+	color: #656565;
+	line-height: 39px;
+	height: 39px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	padding-right: 30px;
+	background: url("../img/botoes/bt_realizar_orcamento.png") no-repeat right -69px;
+}
+
+.btCarregarMais span {
+	padding-left: 30px;
+	background: url("../img/botoes/bt_realizar_orcamento.png") no-repeat left top;
+	display: block;
+	line-height: 39px;
+	height: 39px;
+}
+
+.btCarregarMais:hover {
+	background-position: right -247px;
+}
+
+.btCarregarMais:hover span {
+	background-position: left -178px;
 }

@@ -46,7 +46,115 @@
 					</div>
 
 					<div id="sessaoConteudo">
-						<ul id="produtosUl">
+						<ul id="produtosUl" class="clearfix">
+							<li class="produtosLi">
+								<a class="produtosLink" href="javascript:;">
+									<img class="produtosImg" src="img/produto.jpg" />
+									<div class="blocoTituloProduto">
+										<span class="produtosTitulo">Descensor ids Petzl</span>
+										<span class="produtoBt ir" href="javascript:;">Ver Mais</span>
+									</div>
+								</a>
+							</li>
+							<li class="produtosLi">
+								<a class="produtosLink" href="javascript:;">
+									<img class="produtosImg" src="img/produto.jpg" />
+									<div class="blocoTituloProduto">
+										<span class="produtosTitulo">Descensor ids Petzl</span>
+										<span class="produtoBt ir" href="javascript:;">Ver Mais</span>
+									</div>
+								</a>
+							</li>
+							<li class="produtosLi">
+								<a class="produtosLink" href="javascript:;">
+									<img class="produtosImg" src="img/produto.jpg" />
+									<div class="blocoTituloProduto">
+										<span class="produtosTitulo">Descensor ids Petzl</span>
+										<span class="produtoBt ir" href="javascript:;">Ver Mais</span>
+									</div>
+								</a>
+							</li>
+							<li class="produtosLi">
+								<a class="produtosLink" href="javascript:;">
+									<img class="produtosImg" src="img/produto.jpg" />
+									<div class="blocoTituloProduto">
+										<span class="produtosTitulo">Descensor ids Petzl</span>
+										<span class="produtoBt ir" href="javascript:;">Ver Mais</span>
+									</div>
+								</a>
+							</li>
+							<li class="produtosLi">
+								<a class="produtosLink" href="javascript:;">
+									<img class="produtosImg" src="img/produto.jpg" />
+									<div class="blocoTituloProduto">
+										<span class="produtosTitulo">Descensor ids Petzl</span>
+										<span class="produtoBt ir" href="javascript:;">Ver Mais</span>
+									</div>
+								</a>
+							</li>
+							<li class="produtosLi">
+								<a class="produtosLink" href="javascript:;">
+									<img class="produtosImg" src="img/produto.jpg" />
+									<div class="blocoTituloProduto">
+										<span class="produtosTitulo">Descensor ids Petzl</span>
+										<span class="produtoBt ir" href="javascript:;">Ver Mais</span>
+									</div>
+								</a>
+							</li>
+							<li class="produtosLi">
+								<a class="produtosLink" href="javascript:;">
+									<img class="produtosImg" src="img/produto.jpg" />
+									<div class="blocoTituloProduto">
+										<span class="produtosTitulo">Descensor ids Petzl</span>
+										<span class="produtoBt ir" href="javascript:;">Ver Mais</span>
+									</div>
+								</a>
+							</li>
+							<li class="produtosLi">
+								<a class="produtosLink" href="javascript:;">
+									<img class="produtosImg" src="img/produto.jpg" />
+									<div class="blocoTituloProduto">
+										<span class="produtosTitulo">Descensor ids Petzl</span>
+										<span class="produtoBt ir" href="javascript:;">Ver Mais</span>
+									</div>
+								</a>
+							</li>	
+							<li class="produtosLi">
+								<a class="produtosLink" href="javascript:;">
+									<img class="produtosImg" src="img/produto.jpg" />
+									<div class="blocoTituloProduto">
+										<span class="produtosTitulo">Descensor ids Petzl</span>
+										<span class="produtoBt ir" href="javascript:;">Ver Mais</span>
+									</div>
+								</a>
+							</li>
+							<li class="produtosLi">
+								<a class="produtosLink" href="javascript:;">
+									<img class="produtosImg" src="img/produto.jpg" />
+									<div class="blocoTituloProduto">
+										<span class="produtosTitulo">Descensor ids Petzl</span>
+										<span class="produtoBt ir" href="javascript:;">Ver Mais</span>
+									</div>
+								</a>
+							</li>
+							<li class="produtosLi">
+								<a class="produtosLink" href="javascript:;">
+									<img class="produtosImg" src="img/produto.jpg" />
+									<div class="blocoTituloProduto">
+										<span class="produtosTitulo">Descensor ids Petzl</span>
+										<span class="produtoBt ir" href="javascript:;">Ver Mais</span>
+									</div>
+								</a>
+							</li>
+							<li class="produtosLi">
+								<a class="produtosLink" href="javascript:;">
+									<img class="produtosImg" src="img/produto.jpg" />
+									<div class="blocoTituloProduto">
+										<span class="produtosTitulo">Descensor ids Petzl</span>
+										<span class="produtoBt ir" href="javascript:;">Ver Mais</span>
+									</div>
+								</a>
+							</li>
 							<li class="produtosLi">
 								<a class="produtosLink" href="javascript:;">
 									<img class="produtosImg" src="img/produto.jpg" />
@@ -84,6 +192,8 @@
 								</a>
 							</li>
 						</ul>
+
+						<a href="javascript:;" class="btCarregarMais"><span>(Carregar mais...)</span></a>
 					</div>
 
 					<div class="voltarTopo">
@@ -94,7 +204,7 @@
 				<aside id="sidebar">
 					<img src="img/img_side.png" alt="">
 
-					<span class="ttProdutosSide"><span>Produtos</span></span>
+					<span class="tituloSidebar"><span>Produtos</span></span>
 
 					<nav id="navLocal">
 						<ul>
