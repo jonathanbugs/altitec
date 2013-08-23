@@ -220,6 +220,7 @@ body {
 	line-height: 1em;
 	color: #000;
 	font-family: 'open_sansregular', arial, sans-serif;
+	overflow-x: hidden;
 }
 
 .container {
@@ -485,7 +486,7 @@ body {
 #direitos {
 	width: 100%;
 	display: block;
-	margin: 45px 0;
+	margin: 45px 0 0 0;
 }
 
 #direitos .txt {
@@ -946,11 +947,10 @@ body {
 	}
 
 	#menuMobile {
-		background: #d04343;
+		background: #03572d;
 		width: 75%;
 		top: 0;
 		right: 0;
-		border-left: 2px solid #ae2e2e;
 		-webkit-transform: translate3d(100%, 0, 0);
 		-moz-transform: translate3d(100%, 0, 0);
 		-ms-transform: translate3d(100%, 0, 0);

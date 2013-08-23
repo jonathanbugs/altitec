@@ -59,37 +59,8 @@
 								</div>
 							</li>
 						</ul>
-
 					</div>
 				</section>
-
-				<!--section id="banner">
-					<div class="container">
-						<div id="logoFixo">
-							<img src="img/logos/logo_fixo.png" alt="Altitec">
-						</div>
-						<div class="trianguloGeral"></div>
-						<ul id="bannerUl" class="clearfix">
-							<li class="bannerLi">
-								<img src="img/banner/banner1.jpg" alt="">
-								<div class="textoBanner">
-									<span class="textoTitulo">Treinamentos</span>
-									<span class="textoDescricao">Altura, Elétrica, Espaço Confiando, Florestal, Gestão, Resgate</span>
-									<a class="bannerLink geralTransition" href="javascript:;">Explore +</a>
-								</div>
-							</li>
-
-							<li class="bannerLi">
-								<img src="img/banner/banner2.jpg" alt="">
-								<div class="textoBanner">
-									<span class="textoTitulo">Resgate</span>
-									<span class="textoDescricao">Elétrica, Altura Resgate</span>
-									<a class="bannerLink geralTransition" href="javascript:;">Explore +</a>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</section-->
 			</header>
 
 			<section id="conteudoPrincipal">
