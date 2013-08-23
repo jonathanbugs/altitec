@@ -46,39 +46,6 @@
 	background-position: left -178px;
 }
 
-#navLocal {
-	padding-top: 50px;
-}
-
-#navLocal li {
-	border-bottom: 2px solid #b3b3b3;
-}
-
-#navLocal .subCategoriaAberta {
-	border-bottom: none;
-}
-
-#navLocal a {
-	font-size: 18px;
-	color: #1f1f1f;
-	display: block;
-	text-decoration: none;
-	line-height: 110%;
-	padding: 10px 0 10px 10px;
-}
-
-#navLocal ul ul {
-	background: #cccccc;
-	border-top: 2px solid #b3b3b3;
-}
-
-#navLocal ul ul a {
-	font-size: 14px;
-}
-
-#navLocal a:hover {
-	background: #FFF;
-}
 
 #formOrcamento label{
 	display: block;
