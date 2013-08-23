@@ -1,5 +1,5 @@
-<div id="menuMobile">
-	<span class="foneMobile">51 3561 9493</span>
+<nav id="menuMobile">
+ 	<span class="foneMobile">51 3561 9493</span>
 
 	<form action="javascript:;" method="post" class="formBuscaMobile">
 		<div class="relative">
@@ -37,7 +37,7 @@
 			</li>
 		</ul>		
 	</nav>
-</div>	
+</nav>	
 
 
 <section id="topoConteudo">
