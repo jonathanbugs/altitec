@@ -334,6 +334,11 @@ body {
 	position: relative;
 }
 
+#logoLink {
+	display: block;
+	height: 100%;
+}
+
 #menuUl {
 	margin-top: 9px;
 }
@@ -737,7 +742,23 @@ body {
 		line-height: 30px;
 	}
 
+	.blocoMenu {
+		display: none;
+	}
 
+	#menuPrincipal {
+		margin-top: 5px;
+	}
+
+	#boxLogo {
+		float: none;
+		margin: 0 auto;
+		max-width: 362px;
+	}
+
+	#menu {
+		display: none;
+	}
 
 	/* CONTEUDO */
 	.container {
@@ -871,8 +892,20 @@ body {
 }
 
 @media only screen and (max-width: 480px) {
+	#sessaoConteudo {
+		padding-bottom: 70px
+	}
+
 	.tituloSidebar {
 		padding-right: 42px;
+	}
+
+	#boxLogo img {
+		margin-left: -45px;
+	}
+
+	.voltarTopo {
+		display: none;
 	}
 }
 

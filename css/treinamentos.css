@@ -16,6 +16,10 @@
 	display: none;
 }
 
+.conteudoAccordion img {
+	width: 100%;
+}
+
 .btExplore {
 	color: #000000;
 	display: block;
@@ -30,6 +34,10 @@
 
 #treinamentosUl .cms {
 	padding: 25px 25px 0 25px; 
+}
+
+.conteudoAccordion .cms p {
+	text-align: left;
 }
 
 .btMaisInformacoes {
@@ -61,6 +69,20 @@
 
 #treinamentosUl  .accordionAberto {
 	background: #cccccc;
+}
+
+@media only screen and (max-width: 1023px) {
+	.btMaisInformacoes {
+		display: block;
+		margin: 0 auto;
+		float: none;
+	}
+
+	.btFecharAccordion {
+		float: none;
+		margin: 20px auto;
+		display: block;
+	}
 }
 
 

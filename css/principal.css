@@ -10,6 +10,10 @@
 	background: #FFF;
 }
 
+#bannerUl img {
+	width: 100%;
+}
+
 .textoBanner {
 	background: #FFF;
 	color: #00682e;
@@ -317,4 +321,55 @@
 
 #facebook {
 	float: right;
+}
+
+@media only screen and (max-width: 1023px) {
+	#logoFixo,
+	.trianguloGeral {
+		display: none;
+	}
+
+	#banner {
+		margin: 45px 0 35px;
+	}
+
+	.textoBanner {
+		text-align: left;
+	}
+
+	.blocoData,
+	.linkExplore {
+		display: none;
+	}
+
+	#produtos .blocoTitulo {
+		margin-left: 0;
+	}
+
+	#novidadesUl {
+		display: inline-block;
+		float: none;
+	}
+
+	.novidadesLi {
+		margin: 0 auto 30px;
+		float: none;
+	}
+
+	#facebook {
+		float: none;
+		margin: 30px auto;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.produtoLink {
+		margin-left: -70px;
+	}
+
+	#conteudoPrincipal {
+		background-color: #FFF;
+		background-image: none;
+		padding-bottom: 40px;
+	}
 }

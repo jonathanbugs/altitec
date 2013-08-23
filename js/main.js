@@ -5,6 +5,10 @@ $(document).ready(function(){
 	galeriaProdutos();
 });
 
+$(window).on('resize', function(){
+	sliderBanner();
+})
+
 function placeHolder(){
 	$('.input, .textarea').on('keyup',function(){
 		if($(this).val()===''){ $(this).prev().show(); }

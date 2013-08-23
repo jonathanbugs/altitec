@@ -39,7 +39,19 @@
 						<img src="img/logos/logo_fixo.png" alt="Altitec">
 					</div>
 					<div class="trianguloGeral"></div>
-					<ul id="bannerUl">
+
+
+					
+				</div>
+			</section>
+
+			<!--section id="banner">
+				<div class="container">
+					<div id="logoFixo">
+						<img src="img/logos/logo_fixo.png" alt="Altitec">
+					</div>
+					<div class="trianguloGeral"></div>
+					<ul id="bannerUl" class="clearfix">
 						<li class="bannerLi">
 							<img src="img/banner/banner1.jpg" alt="">
 							<div class="textoBanner">
@@ -59,7 +71,7 @@
 						</li>
 					</ul>
 				</div>
-			</section>
+			</section-->
 		</header>
 
 		<section id="conteudoPrincipal">
