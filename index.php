@@ -33,15 +33,32 @@
 		<header id="topo">
 			<?php include "includes/topo.php"; ?>
 
-			<section id="banner">
-				<div class="container">
+			<section id="banner" class="clearfix">
+				<div class="container containerBanner clearfix">
 					<div id="logoFixo">
 						<img src="img/logos/logo_fixo.png" alt="Altitec">
 					</div>
 					<div class="trianguloGeral"></div>
 
+					<ul class="rslides">
+						<li class="bannerLi">
+							<img src="img/banner/banner1.jpg" alt="">
+							<div class="textoBanner">
+								<span class="textoTitulo">Treinamentos</span>
+								<span class="textoDescricao">Altura, Elétrica, Espaço Confiando, Florestal, Gestão, Resgate</span>
+								<a class="bannerLink geralTransition" href="javascript:;">Explore +</a>
+							</div>
+						</li>
+						<li class="bannerLi">
+							<img src="img/banner/banner2.jpg" alt="">
+							<div class="textoBanner">
+								<span class="textoTitulo">Resgate</span>
+								<span class="textoDescricao">Elétrica, Altura Resgate</span>
+								<a class="bannerLink geralTransition" href="javascript:;">Explore +</a>
+							</div>
+						</li>
+					</ul>
 
-					
 				</div>
 			</section>
 
@@ -75,9 +92,6 @@
 		</header>
 
 		<section id="conteudoPrincipal">
-			<div class="voltarTopo">
-				<a id="linkTopo" class="ir" href="#topo">Voltar ao Topo</a>
-			</div>
 			<section id="produtos">
 				<div class="container containerProdutos">
 					<div class="trianguloGeral"></div>
@@ -182,6 +196,9 @@
 						</div>
 					</div>
 				</section>
+				<div class="voltarTopo">
+					<a id="linkTopo" class="ir" href="#topo">Voltar ao Topo</a>
+				</div>
 			</div>
 		</section>
 

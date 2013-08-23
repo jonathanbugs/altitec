@@ -5,10 +5,6 @@ $(document).ready(function(){
 	galeriaProdutos();
 });
 
-$(window).on('resize', function(){
-	sliderBanner();
-})
-
 function placeHolder(){
 	$('.input, .textarea').on('keyup',function(){
 		if($(this).val()===''){ $(this).prev().show(); }
@@ -27,12 +23,23 @@ function placeHolder(){
 }
 
 function sliderBanner(){
-	$('#bannerUl').cycle({
-		fx:     'fade',
-		speed:   1000,
-		timeout: 6000,
-		cleartypeNoBg: true,
-		cleartype: !$.support.opacity
+	$(".rslides").responsiveSlides({
+		auto: true,             // Boolean: Animate automatically, true or false
+		speed: 1000,            // Integer: Speed of the transition, in milliseconds
+		timeout: 4000,          // Integer: Time between slide transitions, in milliseconds
+		pager: false,           // Boolean: Show pager, true or false
+		nav: false,             // Boolean: Show navigation, true or false
+		random: false,          // Boolean: Randomize the order of the slides, true or false
+		pause: false,           // Boolean: Pause on hover, true or false
+		pauseControls: true,    // Boolean: Pause when hovering controls, true or false
+		prevText: "Previous",   // String: Text for the "previous" button
+		nextText: "Next",       // String: Text for the "next" button
+		maxwidth: "",           // Integer: Max-width of the slideshow, in pixels
+		navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
+		manualControls: "",     // Selector: Declare custom pager navigation
+		namespace: "rslides",   // String: Change the default namespace used
+		before: function(){},   // Function: Before callback
+		after: function(){}     // Function: After callback
 	});
 }
 
