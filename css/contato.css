@@ -6,7 +6,7 @@
 #formContato .relativeTextarea {
 	background: #e6e6e6;
 	float: right;
-	width: 69%;
+	width: 71%;
 	padding: 0 15px;
 	height: 100%;
 }
@@ -36,6 +36,7 @@
 #formContato li {
 	height: 40px;
 	margin-bottom: 5px;
+	display: block;
 }
 
 #formContato .liCampoTextArea {
@@ -256,5 +257,21 @@ textarea {
 
 
 @media only screen and (max-width: 1023px) {
-	/* FOR */
-}*/*/*/
+	#formContato .relativeInput,
+	#formContato .relativeTextarea {
+		float: none;
+		width: auto;
+	}
+
+	#formContato li {
+	}
+
+	#formContato label {
+		width: 100%;
+		float: none;
+		text-align: left;
+		line-height: 1em;
+		padding: 0;
+		margin-bottom: 4px;
+	}
+}
