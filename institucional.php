@@ -36,10 +36,10 @@
 
 		<section id="conteudoPrincipal">
 			<div class="container clearfix">
-				<div id="main">
+				<div id="main" class="geralTransition">
 					<div class="clearfix headerSessao">
-						<h2 class="tituloSessao">Institucional</h2>
-						<ul class="migalhaPao">
+						<h2 class="tituloSessao geralTransition">Institucional</h2>
+						<ul class="migalhaPao geralTransition">
 							<li><a href="javascript:;">principal</a></li>
 							<li class="last"><a href="javascript:;">institucional</a></li>
 						</ul>
@@ -52,13 +52,13 @@
 						</div>
 
 						<ul id="institucionalUl" class="clearfix">
-							<li class="institucionalLi">
+							<li class="institucionalLi geralTransition">
 								<img class="institucionalImg" src="img/novidades/novidade.jpg" alt="" />
 							</li>
-							<li class="institucionalLi">
+							<li class="institucionalLi geralTransition">
 								<img class="institucionalImg" src="img/novidades/novidade.jpg" alt="" />
 							</li>
-							<li class="institucionalLi institucionalLiLast">
+							<li class="institucionalLi geralTransition institucionalLiLast">
 								<img class="institucionalImg" src="img/novidades/novidade.jpg" alt="" />
 							</li>
 						</ul>
@@ -68,14 +68,14 @@
 						<a id="linkTopo" class="ir" href="#topo">Voltar ao Topo</a>
 					</div>
 				</div>
-				<aside id="sidebar">
+				<aside id="sidebar" class="geralTransition">
 					<img src="img/img_side.png" alt="">
 					<span class="tituloSidebar">
 						<span>Institucional</span>
 					</span>
 
-					<ul id="produtosSidebarUl">
-						<li class="produtosSidebarLi">
+					<ul id="produtosSidebarUl" class="clearfix">
+						<li class="produtosSidebarLi geralTransition">
 							<a class="produtosSidebarLink" href="javascript:;">
 								<img class="produtosSidebarImg" src="img/produto.jpg" />
 								<div class="blocoTituloProduto">
@@ -84,7 +84,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="produtosSidebarLi">
+						<li class="produtosSidebarLi geralTransition">
 							<a class="produtosSidebarLink" href="javascript:;">
 								<img class="produtosSidebarImg" src="img/produto.jpg" />
 								<div class="blocoTituloProduto">
@@ -93,7 +93,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="produtosSidebarLi">
+						<li class="produtosSidebarLi geralTransition">
 							<a class="produtosSidebarLink" href="javascript:;">
 								<img class="produtosSidebarImg" src="img/produto.jpg" />
 								<div class="blocoTituloProduto">
@@ -102,7 +102,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="produtosSidebarLi">
+						<li class="produtosSidebarLi geralTransition">
 							<a class="produtosSidebarLink" href="javascript:;">
 								<img class="produtosSidebarImg" src="img/produto.jpg" />
 								<div class="blocoTituloProduto">

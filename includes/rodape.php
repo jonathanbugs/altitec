@@ -5,8 +5,8 @@
 			<a class="linkEmail" href="mailto:altitec@altitec.com.br">altitec@altitec.com.br</a>
 		</div>
 		
-		<div id="rodapeLeft">
-			<ul id="logosUl" class="clearfix">
+		<div id="rodapeLeft" class="geralTransition">
+			<ul id="logosUl" class="geralTransition clearfix">
 				<li class="logosLi">
 					<a href="javascript:;">
 						<img src="img/logos/petzl.png" alt="Petzl">
@@ -47,10 +47,10 @@
 			<?php include "includes/blocoMenuBusca.php"; ?>
 		</div>
 	</div>
-	<section id="direitos" class="clearfix">
+	<section id="direitos" class="geralTransition clearfix">
 		<div class="container clearfix">
-			<span class="txt">2013 - Todos os direitos reservadis - Altitec Sistemas de Segurança em Altura</span>
-			<a id="logoOfficeArts" class="ir" href="http://www.officearts.com.br/" target="_blank">Office Arts</a>
+			<span class="txt geralTransition">2013 - Todos os direitos reservadis - Altitec Sistemas de Segurança em Altura</span>
+			<a id="logoOfficeArts" class="ir geralTransition" href="http://www.officearts.com.br/" target="_blank">Office Arts</a>
 		</div>
 	</section>
 </section>

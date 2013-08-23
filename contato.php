@@ -36,10 +36,10 @@
 
 		<section id="conteudoPrincipal">
 			<div class="container clearfix">
-				<div id="main">
+				<div id="main" class="geralTransition">
 					<div class="clearfix headerSessao">
-						<h2 class="tituloSessao">Contato</h2>
-						<ul class="migalhaPao">
+						<h2 class="tituloSessao geralTransition">Contato</h2>
+						<ul class="migalhaPao geralTransition">
 							<li><a href="javascript:;">principal</a></li>
 							<li class="last"><a href="javascript:;">contato</a></li>
 						</ul>
@@ -61,27 +61,34 @@
 									</div>
 								</li>
 
-								<!--li>
-									<label id="lblFone" for="iptFone">Fone:</label>
-									<div class="relative relativeInput clearfix">
-										<input type="text" id="iptEmail" name="iptEmail">
-									</div>
-
-									<label id="lblCidade" for="IptCidade">Cidade/UF:</label>
-
-									<div class="relative relativeInput clearfix">
-										<input type="text" id="iptCidade" name="iptCidade">
-									</div>
-								</li-->
-
-
-								<!--li class="liCampoTextArea">
-									<label id="lblMensagem" for="txtAreaMensagem">Mensagem:</label>
-									<textarea name="txtAreaMensagem" id="txtAreaMensagem" cols="30" rows="10"></textarea>
-								</li>
 								<li>
-									<button id="btEnviarContato">Enviar</button>
-								</li-->
+									<div class="divide clearfix">
+										<label id="lblFone" for="iptFone">Fone:</label>
+										<div class="relative relativeInput clearfix">
+											<input type="text" id="iptEmail" name="iptEmail">
+										</div>
+									</div>
+
+									<div class="divide clearfix">
+										<label id="lblCidade" for="IptCidade">Cidade/UF:</label>
+										<div class="relative relativeInput clearfix">
+											<input type="text" id="iptCidade" name="iptCidade">
+										</div>
+									</div>
+								</li>
+
+								<li class="liCampoTextArea">
+									<label id="lblMensagem" for="txtAreaMensagem">Mensagem:</label>
+									<div class="relative relativeTextarea clearfix">
+										<textarea name="txtAreaMensagem" id="txtAreaMensagem" cols="30" rows="10"></textarea>
+									</div>
+								</li>
+
+								<li>
+									<div class="relativeBt clearfix">
+										<button id="btEnviarContato">Enviar</button>
+									</div>
+								</li>
 							</ul>
 						</form>
 					</div>
@@ -90,7 +97,7 @@
 						<a id="linkTopo" class="ir" href="#topo">Voltar ao Topo</a>
 					</div>
 				</div>
-				<aside id="sidebar">
+				<aside id="sidebar" class="geralTransition">
 					<img src="img/img_side.png" alt="">
 					<span class="tituloSidebar">
 						<span>Como Chegar</span>

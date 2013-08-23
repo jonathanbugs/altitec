@@ -11,6 +11,11 @@
 	height: 100%;
 }
 
+.relativeBt {
+	float: right;
+	margin-top: 20px;
+}
+
 #formContato label {
 	display: block;
 	width: 20%;
@@ -40,15 +45,21 @@
 }
 
 #formContato .liCampoTextArea {
-	height: 192px;
+	height: 172px;
 }
 
-#formContato #iptFone {
-	width: 140px;
+#formContato .divide {
+	width: 50%;
+	height: 100%;
+	float: left;
 }
 
-#formContato #iptCidade {
-	width: 156px;
+#formContato .divide .relativeInput {
+	width: 42%;
+}
+
+#formContato .divide label {
+	width: 40%;
 }
 
 #formContato textarea {
@@ -58,9 +69,13 @@
 	background: #e6e6e6;
 	font-size: 14px;
 	color: #4e7171;
-	padding: 11px;
-	width: 418px;
-	height: 150px;
+	width: 100%;
+	height: 95%;
+}
+
+#formContato .relativeTextarea {
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 #btEnviarContato {
@@ -72,141 +87,6 @@
 	color: #4e7171;
 	font-family: 'open_sansregular', arial, sans-serif;
 }
-
-
-
-
-
-
-
-/**************
-	FORMULARIO
-**************/
-/*#formContato {
-	max-width: 570px;
-	margin: 0 auto;
-	padding-bottom: 101px;
-}
-
-#formContato li {
-	position: relative;
-	margin: 0 15px 5px;
-	z-index: 1;
-	display: block;
-}
-
-#formContato .liFloat {
-	margin-bottom: 0;
-}
-
-#formContato .relativeInput,
-#formContato .relativeTextarea {
-	background: blue;
-}
-
-#formContato .relative,
-#formContato .relativeFloat {
-	margin-bottom: 5px;
-	padding: 0 20px;
-	position: relative;
-}
-
-#formContato .relative {
-	float: none;
-}
-
-#formContato .relativeFloatEmail {
-	float: left;
-	width: 42.5%
-}
-
-#formContato .relativeFloatFone {
-	float: right;
-	width: 42.5%;
-}
-
-#formContato .label,
-#formContato .input,
-#formContato .textarea {
-	font-family: 'open_sansregular', arial, sans-serif;	
-	border: none;
-	font-size: 14px;
-	color: #4e7171;
-}
-
-#formContato .label {
-	display: block;
-	padding-bottom: 10px;
-	float: left;
-}
-
-#formContato .input {
-	border: medium none;
-	height: 23px;
-	line-height: 23px;
-	margin: 0;
-	padding: 0;
-	background: #E6E6E6;
-	float: left;
-	display: blo
-}
-
-#formContato .textarea {
-    line-height: 1.2em;
-    resize: none;
-}
-
-#formContato .textarea {
-	border: medium none;
-	height: 242px;
-	width: 100%;
-}
-
-textarea {
-	overflow: auto;
-}
-
-.ttCamposObrigatorios {
-	font-size: 12px;
-	font-family: "Century Gothic", Arial, sans-serif;
-	color: #53595d;
-	display: block;
-	padding: 25px 0 32px 0;
-	text-align: center;
-}
-
-#btEnviar {
-	background: url("../img/sprite_contato.png") no-repeat 31px 18px;
-	width: 95%;
-	display: block;
-	height: 86px;
-	text-align: center;
-	font-size: 16px;
-	font-family: "FuturaStd-Medium", Arial, sans-serif;
-	color: #014a7a;
-	cursor: pointer;
-	margin: 0 15px;
-	border: 2px solid #014a7a;
-	border-radius: 4px;
-	-moz-border-radius: 4px;
-	-webkit-border-radius: 4px;
-
- 	-webkit-transition: background-color 0.5s;
-	-moz-transition: background-color 0.5s;
-	-o-transition: background-color 0.5s;
-	transition: background-color 0.5s;
-}
-
-#btEnviar:hover {
-	background-position: 31px -152px;
-	background-color: #e0262f;
-	border-color: #e0262f;
-	color: #FFF;
-}
-*/
-
-
-
 
 .blocoEmpresa {
 	margin-top: 45px;
@@ -264,6 +144,7 @@ textarea {
 	}
 
 	#formContato li {
+		margin-bottom: 35px;
 	}
 
 	#formContato label {
@@ -273,5 +154,22 @@ textarea {
 		line-height: 1em;
 		padding: 0;
 		margin-bottom: 4px;
+	}
+
+	#formContato .liCampoTextArea {
+		height: 100px;
+	}
+
+	#formContato .divide {
+		width: 100%;
+		margin-bottom: 35px;
+	}
+
+	#formContato .divide .relativeInput {
+		width: auto;
+	}
+
+	#formContato .divide label {
+		width: 100%;
 	}
 }

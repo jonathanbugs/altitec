@@ -653,6 +653,10 @@ body {
 		text-align: center;
 	}
 
+	.cms p { 
+		text-align: justify;
+	}
+
 	#conteudoPrincipal {
 		margin: 0 20px;
 	}
@@ -666,7 +670,7 @@ body {
 
 	#sidebar {
 		float: none;
-	    margin: 0 auto;
+	    margin: 40px auto 0;
 	    width: auto;
 	    max-width: 330px;
 	}
@@ -733,6 +737,12 @@ body {
 	#direitos #logoOfficeArts {
 		float: none;
 		margin: 30px auto 0;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.tituloSidebar {
+		padding-right: 42px;
 	}
 }
 

@@ -2,7 +2,6 @@
 	float: left;
 	width: 150px;
 	height: 103px;
-	background: blue;
 	border: 3px solid #669933;
 	margin-right: 30px;
 }
@@ -61,5 +60,23 @@
 
 .produtosSidebarLink:hover .produtosSidebarTitulo {
 	text-decoration: underline;
+}
+
+@media only screen and (max-width: 1023px) {
+	.institucionalLi {
+		float: none;
+		margin: 0 auto 30px;
+		margin-right: 30px;
+	}
+
+	.institucionalLiLast {
+		margin-bottom: 0;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	.produtosSidebarLi {
+		margin-left: 10px;
+	}
 }
 
