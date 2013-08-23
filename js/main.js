@@ -3,6 +3,7 @@ $(document).ready(function(){
 	sliderBanner();
 	scrollTopo();
 	galeriaProdutos();
+	abrirMenu();
 });
 
 function placeHolder(){
@@ -73,5 +74,14 @@ function galeriaProdutos(){
 				visibleItems: 3
 			}
 		}
+	});
+}
+
+/**************
+	MENU MOBILE
+**************/
+function abrirMenu(){
+	$(".btMenu").click(function(){
+		$("html").toggleClass("menuAberto");
 	});
 }
