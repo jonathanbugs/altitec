@@ -34,33 +34,35 @@
 			<header id="topo">
 				<?php include "includes/topo.php"; ?>
 
-				<section id="banner" class="clearfix">
-					<div class="container containerBanner clearfix">
-						<div id="logoFixo">
-							<img src="img/logos/logo_fixo.png" alt="Altitec">
-						</div>
-						<div class="trianguloGeral"></div>
+				<div class="conteudoBanner">
+					<section id="banner" class="clearfix">
+						<div class="container containerBanner clearfix">
+							<div id="logoFixo">
+								<img src="img/logos/logo_fixo.png" alt="Altitec">
+							</div>
+							<div class="trianguloGeral"></div>
 
-						<ul class="rslides">
-							<li class="bannerLi">
-								<img src="img/banner/banner1.jpg" alt="">
-								<div class="textoBanner">
-									<span class="textoTitulo">Treinamentos</span>
-									<span class="textoDescricao">Altura, Elétrica, Espaço Confiando, Florestal, Gestão, Resgate</span>
-									<a class="bannerLink geralTransition" href="javascript:;">Explore +</a>
-								</div>
-							</li>
-							<li class="bannerLi">
-								<img src="img/banner/banner2.jpg" alt="">
-								<div class="textoBanner">
-									<span class="textoTitulo">Resgate</span>
-									<span class="textoDescricao">Elétrica, Altura Resgate</span>
-									<a class="bannerLink geralTransition" href="javascript:;">Explore +</a>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</section>
+							<ul class="rslides">
+								<li class="bannerLi">
+									<img src="img/banner/banner1.jpg" alt="">
+									<div class="textoBanner">
+										<span class="textoTitulo">Treinamentos</span>
+										<span class="textoDescricao">Altura, Elétrica, Espaço Confiando, Florestal, Gestão, Resgate</span>
+										<a class="bannerLink geralTransition" href="javascript:;">Explore +</a>
+									</div>
+								</li>
+								<li class="bannerLi">
+									<img src="img/banner/banner2.jpg" alt="">
+									<div class="textoBanner">
+										<span class="textoTitulo">Resgate</span>
+										<span class="textoDescricao">Elétrica, Altura Resgate</span>
+										<a class="bannerLink geralTransition" href="javascript:;">Explore +</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</section>
+				</div>
 			</header>
 
 			<section id="conteudoPrincipal">
@@ -131,7 +133,7 @@
 					</div>
 				</section>
 
-				<div class="container">
+				<div class="container clearfix">
 					<section id="novidades">
 						<div class="blocoTitulo">
 							<span class="titulo">Novidades</span>
