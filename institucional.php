@@ -30,44 +30,92 @@
 			<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 		<![endif]-->
 
-		<header id="topo">
-			<?php include "includes/topo.php"; ?>
-		</header>
+		<div id="wrapper">
+			<header id="topo">
+				<?php include "includes/topo.php"; ?>
+			</header>
 
-		<section id="conteudoPrincipal">
-			<div class="container clearfix">
-				<div id="main" class="geralTransition">
-					<div class="clearfix headerSessao">
-						<h2 class="tituloSessao geralTransition">Institucional</h2>
-						<ul class="migalhaPao geralTransition">
-							<li><a href="javascript:;">principal</a></li>
-							<li class="last"><a href="javascript:;">institucional</a></li>
-						</ul>
-					</div>
-					<div id="sessaoConteudo">
-						<div class="cms">
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sodales arcu sit amet elit eleifend, porttitor interdum neque dictum. Ut posuere porta ligula, varius mattis nibh malesuada vel. Cras vel leo suscipit est eleifend posuere. Donec vel pulvinar felis, non molestie quam. Ut nec facilisis leo. Sed ut gravida ipsum. Suspendisse potenti. Donec eu feugiat nibh. Nunc vitae dictum lacus. Nam tempor ipsum id risus aliquet, in convallis tortor tristique.
-							</p>
+			<section id="conteudoPrincipal">
+				<div class="container clearfix">
+					<div id="main" class="geralTransition">
+						<div class="clearfix headerSessao">
+							<h2 class="tituloSessao geralTransition">Institucional</h2>
+							<ul class="migalhaPao geralTransition">
+								<li><a href="javascript:;">principal</a></li>
+								<li class="last"><a href="javascript:;">institucional</a></li>
+							</ul>
+						</div>
+						<div id="sessaoConteudo">
+							<div class="cms">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sodales arcu sit amet elit eleifend, porttitor interdum neque dictum. Ut posuere porta ligula, varius mattis nibh malesuada vel. Cras vel leo suscipit est eleifend posuere. Donec vel pulvinar felis, non molestie quam. Ut nec facilisis leo. Sed ut gravida ipsum. Suspendisse potenti. Donec eu feugiat nibh. Nunc vitae dictum lacus. Nam tempor ipsum id risus aliquet, in convallis tortor tristique.
+								</p>
+							</div>
+
+							<ul id="institucionalUl" class="clearfix">
+								<li class="institucionalLi geralTransition">
+									<img class="institucionalImg" src="img/novidades/novidade.jpg" alt="" />
+								</li>
+								<li class="institucionalLi geralTransition">
+									<img class="institucionalImg" src="img/novidades/novidade.jpg" alt="" />
+								</li>
+								<li class="institucionalLi geralTransition institucionalLiLast">
+									<img class="institucionalImg" src="img/novidades/novidade.jpg" alt="" />
+								</li>
+							</ul>
 						</div>
 
-						<ul id="institucionalUl" class="clearfix">
-							<li class="institucionalLi geralTransition">
-								<img class="institucionalImg" src="img/novidades/novidade.jpg" alt="" />
+						<div class="voltarTopo">
+							<a id="linkTopo" class="ir" href="#topo">Voltar ao Topo</a>
+						</div>
+					</div>
+					<aside id="sidebar" class="geralTransition">
+						<img src="img/img_side.png" alt="">
+						<span class="tituloSidebar">
+							<span>Institucional</span>
+						</span>
+
+						<ul id="produtosSidebarUl" class="clearfix">
+							<li class="produtosSidebarLi geralTransition">
+								<a class="produtosSidebarLink" href="javascript:;">
+									<img class="produtosSidebarImg" src="img/produto.jpg" />
+									<div class="blocoTituloProduto">
+										<span class="produtosSidebarTitulo">Descensor ids Petzl</span>
+										<span class="produtoSidebarBt ir" href="javascript:;">Ver Mais</span>
+									</div>
+								</a>
 							</li>
-							<li class="institucionalLi geralTransition">
-								<img class="institucionalImg" src="img/novidades/novidade.jpg" alt="" />
+							<li class="produtosSidebarLi geralTransition">
+								<a class="produtosSidebarLink" href="javascript:;">
+									<img class="produtosSidebarImg" src="img/produto.jpg" />
+									<div class="blocoTituloProduto">
+										<span class="produtosSidebarTitulo">Descensor ids Petzl</span>
+										<span class="produtoSidebarBt ir" href="javascript:;">Ver Mais</span>
+									</div>
+								</a>
 							</li>
-							<li class="institucionalLi geralTransition institucionalLiLast">
-								<img class="institucionalImg" src="img/novidades/novidade.jpg" alt="" />
+							<li class="produtosSidebarLi geralTransition">
+								<a class="produtosSidebarLink" href="javascript:;">
+									<img class="produtosSidebarImg" src="img/produto.jpg" />
+									<div class="blocoTituloProduto">
+										<span class="produtosSidebarTitulo">Descensor ids Petzl</span>
+										<span class="produtoSidebarBt ir" href="javascript:;">Ver Mais</span>
+									</div>
+								</a>
+							</li>
+							<li class="produtosSidebarLi geralTransition">
+								<a class="produtosSidebarLink" href="javascript:;">
+									<img class="produtosSidebarImg" src="img/produto.jpg" />
+									<div class="blocoTituloProduto">
+										<span class="produtosSidebarTitulo">Descensor ids Petzl</span>
+										<span class="produtoSidebarBt ir" href="javascript:;">Ver Mais</span>
+									</div>
+								</a>
 							</li>
 						</ul>
-					</div>
-
-					<div class="voltarTopo">
-						<a id="linkTopo" class="ir" href="#topo">Voltar ao Topo</a>
-					</div>
+					</aside>	
 				</div>
+<<<<<<< HEAD
 				<aside id="sidebar" class="geralTransition">
 					<div class="imagemSidebar">
 						<div class="maskLeft"></div>
@@ -78,54 +126,14 @@
 					<span class="tituloSidebar">
 						<span>Institucional</span>
 					</span>
+=======
+			</section>
+>>>>>>> 90780873827970b776938025a0715e6661429f22
 
-					<ul id="produtosSidebarUl" class="clearfix">
-						<li class="produtosSidebarLi geralTransition">
-							<a class="produtosSidebarLink" href="javascript:;">
-								<img class="produtosSidebarImg" src="img/produto.jpg" />
-								<div class="blocoTituloProduto">
-									<span class="produtosSidebarTitulo">Descensor ids Petzl</span>
-									<span class="produtoSidebarBt ir" href="javascript:;">Ver Mais</span>
-								</div>
-							</a>
-						</li>
-						<li class="produtosSidebarLi geralTransition">
-							<a class="produtosSidebarLink" href="javascript:;">
-								<img class="produtosSidebarImg" src="img/produto.jpg" />
-								<div class="blocoTituloProduto">
-									<span class="produtosSidebarTitulo">Descensor ids Petzl</span>
-									<span class="produtoSidebarBt ir" href="javascript:;">Ver Mais</span>
-								</div>
-							</a>
-						</li>
-						<li class="produtosSidebarLi geralTransition">
-							<a class="produtosSidebarLink" href="javascript:;">
-								<img class="produtosSidebarImg" src="img/produto.jpg" />
-								<div class="blocoTituloProduto">
-									<span class="produtosSidebarTitulo">Descensor ids Petzl</span>
-									<span class="produtoSidebarBt ir" href="javascript:;">Ver Mais</span>
-								</div>
-							</a>
-						</li>
-						<li class="produtosSidebarLi geralTransition">
-							<a class="produtosSidebarLink" href="javascript:;">
-								<img class="produtosSidebarImg" src="img/produto.jpg" />
-								<div class="blocoTituloProduto">
-									<span class="produtosSidebarTitulo">Descensor ids Petzl</span>
-									<span class="produtoSidebarBt ir" href="javascript:;">Ver Mais</span>
-								</div>
-							</a>
-						</li>
-					</ul>
-				</aside>	
-			</div>
-		</section>
-
-		<footer>
-			<?php include "includes/rodape.php"; ?>
-		</footer>
-
-		
+			<footer>
+				<?php include "includes/rodape.php"; ?>
+			</footer>
+		</div>
 		<script src="js/vendor/jquery-1.9.1.min.js"></script>
 		<script src="js/plugins.js"></script>
 		<script src="js/main.js"></script>
