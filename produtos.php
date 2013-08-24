@@ -201,18 +201,13 @@
 						</div>
 					</div>
 
-<<<<<<< HEAD
-				<aside id="sidebar">
-					<div class="imagemSidebar">
-						<div class="maskLeft"></div>
-						<div class="maskRight"></div>
-						<img class="imgSidebar" src="img/img_side.jpg" alt="">
-					</div>
-=======
 					<aside id="sidebar">
-						<img src="img/img_side.png" alt="">
->>>>>>> 90780873827970b776938025a0715e6661429f22
-
+						<div class="imagemSidebar">
+							<div class="maskLeft"></div>
+							<div class="maskRight"></div>
+							<img class="imgSidebar" src="img/img_side.jpg" alt="">
+						</div>
+					
 						<span class="tituloSidebar"><span>Produtos</span></span>
 
 						<nav id="navLocal">

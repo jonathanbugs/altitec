@@ -84,18 +84,12 @@
 										</div>
 									</li>
 
-<<<<<<< HEAD
-								<li class="errorBox">
-									<div class="clearfix">
-										* Todos os campos são obrigatórios
-									</div>
-								</li>
+									<li class="errorBox">
+										<div class="clearfix">
+											* Todos os campos são obrigatórios
+										</div>
+									</li>
 
-								<li>
-									<div class="relativeBt clearfix">
-										<button class="btEnviar" id="btEnviarContato">Enviar</button>
-									</div>
-=======
 									<li>
 										<div class="relativeBt clearfix">
 											<button class="btEnviar" id="btEnviarContato">Enviar</button>
@@ -109,8 +103,14 @@
 							<a id="linkTopo" class="ir" href="#topo">Voltar ao Topo</a>
 						</div>
 					</div>
+
 					<aside id="sidebar" class="geralTransition">
-						<img src="img/img_side.png" alt="">
+						<div class="imagemSidebar">
+							<div class="maskLeft"></div>
+							<div class="maskRight"></div>
+							<img class="imgSidebar" src="img/img_side.jpg" alt="">
+						</div>
+						
 						<span class="tituloSidebar">
 							<span>Como Chegar</span>
 						</span>
@@ -130,52 +130,16 @@
 								<li class="contatoSidebarLi contatoSidebarLiFone">51 3561 9493</li>
 								<li class="contatoSidebarLi">
 									<a class="linkEmail" href="mailto:altitec@altitec.com.br">altitec@altitec.com.br</a>
->>>>>>> 90780873827970b776938025a0715e6661429f22
 								</li>
 							</ul>
 						</div>
 					</aside>	
 				</div>
-<<<<<<< HEAD
-				<aside id="sidebar" class="geralTransition">
-					<div class="imagemSidebar">
-						<div class="maskLeft"></div>
-						<div class="maskRight"></div>
-						<img class="imgSidebar" src="img/img_side.jpg" alt="">
-					</div>
-					
-					<span class="tituloSidebar">
-						<span>Como Chegar</span>
-					</span>
-
-					<div class="blocoEmpresa">
-						<p class="empresaEndereco">
-							<span>Rua Avelino Dutra de Godoy, 39</span>
-							<span>Bairro Floresta - Estância Velha/RS </span>
-							<span>93600-000</span>
-						</p>
-
-						<a class="linkMapa" href="javascript:;">
-							<img class="empresaImg" src="img/empresa.jpg" alt=""/>
-						</a>
-
-						<ul class="contatoSidebarUl">
-							<li class="contatoSidebarLi contatoSidebarLiFone">51 3561 9493</li>
-							<li class="contatoSidebarLi">
-								<a class="linkEmail" href="mailto:altitec@altitec.com.br">altitec@altitec.com.br</a>
-							</li>
-						</ul>
-					</div>
-				</aside>	
-			</div>
 		</section>
-=======
-			</section>
->>>>>>> 90780873827970b776938025a0715e6661429f22
 
-			<footer>
-				<?php include "includes/rodape.php"; ?>
-			</footer>
+		<footer>
+			<?php include "includes/rodape.php"; ?>
+		</footer>
 		</div>
 
 		

@@ -112,7 +112,11 @@
 					</div>
 
 					<aside id="sidebar">
-						<img src="img/img_side.png" alt="">
+						<div class="imagemSidebar">
+							<div class="maskLeft"></div>
+							<div class="maskRight"></div>
+							<img class="imgSidebar" src="img/img_side.jpg" alt="">
+						</div>
 
 						<span class="tituloSidebar"><span>Produtos</span></span>
 
@@ -144,46 +148,7 @@
 							</ul>
 						</nav>	
 					</aside>	
-				</div>
-
-<<<<<<< HEAD
-				<aside id="sidebar">
-					<div class="imagemSidebar">
-						<div class="maskLeft"></div>
-						<div class="maskRight"></div>
-						<img class="imgSidebar" src="img/img_side.jpg" alt="">
-					</div>
-
-					<span class="tituloSidebar"><span>Produtos</span></span>
-
-					<nav id="navLocal">
-						<ul>
-							<li>
-								<a href="javascript:;">Nome Categoria</a>
-							</li>
-							<li>
-								<a href="javascript:;">Nome Categoria</a>
-							</li>
-							<li>
-								<a href="javascript:;">Nome Categoria</a>
-							</li>
-							<li>
-								<a href="javascript:;">Nome Categoria</a>
-							</li>
-							<li>
-								<a href="javascript:;">Nome Categoria</a>
-							</li>
-							<li class="subCategoriaAberta">
-								<a href="javascript:;">Nome Categoria</a>
-								<ul>
-									<li><a href="javascript:;">Nome Categoria</a></li>
-									<li><a href="javascript:;">Nome Categoria</a></li>
-									<li><a href="javascript:;">Nome Categoria</a></li>
-								</ul>
-							</li>
-						</ul>
-					</nav>	
-				</aside>	
+				</div>	
 			</div>
 
 		</section>
@@ -191,14 +156,7 @@
 		<footer>
 			<?php include "includes/rodape.php"; ?>
 		</footer>
-=======
-			</section>
->>>>>>> 90780873827970b776938025a0715e6661429f22
-
-			<footer>
-				<?php include "includes/rodape.php"; ?>
-			</footer>
-		</div>
+			
 		
 		<script src="js/vendor/jquery-1.9.1.min.js"></script>
 		<script src="js/plugins.js"></script>

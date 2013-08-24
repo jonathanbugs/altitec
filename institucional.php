@@ -70,7 +70,12 @@
 						</div>
 					</div>
 					<aside id="sidebar" class="geralTransition">
-						<img src="img/img_side.png" alt="">
+						<div class="imagemSidebar">
+							<div class="maskLeft"></div>
+							<div class="maskRight"></div>
+							<img class="imgSidebar" src="img/img_side.jpg" alt="">
+						</div>
+						
 						<span class="tituloSidebar">
 							<span>Institucional</span>
 						</span>
@@ -115,21 +120,8 @@
 						</ul>
 					</aside>	
 				</div>
-<<<<<<< HEAD
-				<aside id="sidebar" class="geralTransition">
-					<div class="imagemSidebar">
-						<div class="maskLeft"></div>
-						<div class="maskRight"></div>
-						<img class="imgSidebar" src="img/img_side.jpg" alt="">
-					</div>
-					
-					<span class="tituloSidebar">
-						<span>Institucional</span>
-					</span>
-=======
-			</section>
->>>>>>> 90780873827970b776938025a0715e6661429f22
 
+			</section>
 			<footer>
 				<?php include "includes/rodape.php"; ?>
 			</footer>
