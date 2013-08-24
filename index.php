@@ -59,6 +59,14 @@
 										<a class="bannerLink geralTransition" href="javascript:;">Explore +</a>
 									</div>
 								</li>
+								<li class="bannerLi">
+									<img src="img/banner/banner1.jpg" alt="">
+									<div class="textoBanner">
+										<span class="textoTitulo">Treinamentos</span>
+										<span class="textoDescricao">Altura, Elétrica, Espaço Confiando, Florestal, Gestão, Resgate</span>
+										<a class="bannerLink geralTransition" href="javascript:;">Explore +</a>
+									</div>
+								</li>
 							</ul>
 						</div>
 					</section>

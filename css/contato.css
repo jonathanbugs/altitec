@@ -44,4 +44,20 @@
 	text-decoration: underline;
 }
 
+.form .errorBox {
+	background: #d71925;
+	display: none;
+	color: #FFF;
+	font-size: 12px;
+	text-align: center;
+	padding: 15px 15px;
+	width: 71%;
+	height: auto;
+	float: right;
+	margin-top: 10px;
+}
+
+label.error  {
+	display: none !important;
+}
 

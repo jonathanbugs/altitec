@@ -520,6 +520,33 @@ body {
     width: 330px;
 }
 
+.imagemSidebar {
+	background: blue;
+	position: relative;
+}
+
+.maskLeft,
+.maskRight {
+	position: absolute;
+	z-index: 3;
+	width: 0;
+	height: 0;
+	border-left: 121px solid transparent;
+	border-right: 121px solid transparent;
+}
+
+.maskLeft {
+	top: 0;
+	left: -121px;
+	border-top: 121px solid #e6e6e6;
+}
+
+.maskRight {
+	bottom: 0;
+	right: -121px;
+	border-bottom: 121px solid #e6e6e6;
+}
+
 #navLocal {
 	padding-top: 50px;
 }
@@ -739,6 +766,7 @@ body {
 	font-size: 22px;
 	color: #4e7171;
 	font-family: 'open_sansregular', arial, sans-serif;
+	cursor: pointer;
 }
 
 

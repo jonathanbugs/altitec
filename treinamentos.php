@@ -63,7 +63,7 @@
 									</div>
 
 									<div class="clearfix">
-										<a href="javascript:;" class="btMaisInformacoes">Mais Informações</a>
+										<a href="javascript:;" class="btMaisInformacoes geralTransition">Mais Informações</a>
 										<a href="javascript:;" class="btFecharAccordion">Fechar</a>
 									</div>
 								</div>
@@ -83,7 +83,7 @@
 									</div>
 
 									<div class="clearfix">
-										<a href="javascript:;" class="btMaisInformacoes">Mais Informações</a>
+										<a href="javascript:;" class="btMaisInformacoes geralTransition">Mais Informações</a>
 										<a href="javascript:;" class="btFecharAccordion">Fechar</a>
 									</div>
 								</div>
@@ -103,7 +103,7 @@
 									</div>
 
 									<div class="clearfix">
-										<a href="javascript:;" class="btMaisInformacoes">Mais Informações</a>
+										<a href="javascript:;" class="btMaisInformacoes geralTransition">Mais Informações</a>
 										<a href="javascript:;" class="btFecharAccordion">Fechar</a>
 									</div>
 								</div>
@@ -123,7 +123,7 @@
 									</div>
 
 									<div class="clearfix">
-										<a href="javascript:;" class="btMaisInformacoes">Mais Informações</a>
+										<a href="javascript:;" class="btMaisInformacoes geralTransition">Mais Informações</a>
 										<a href="javascript:;" class="btFecharAccordion">Fechar</a>
 									</div>
 								</div>
@@ -143,7 +143,7 @@
 									</div>
 
 									<div class="clearfix">
-										<a href="javascript:;" class="btMaisInformacoes">Mais Informações</a>
+										<a href="javascript:;" class="btMaisInformacoes geralTransition">Mais Informações</a>
 										<a href="javascript:;" class="btFecharAccordion">Fechar</a>
 									</div>
 								</div>
@@ -163,7 +163,7 @@
 									</div>
 
 									<div class="clearfix">
-										<a href="javascript:;" class="btMaisInformacoes">Mais Informações</a>
+										<a href="javascript:;" class="btMaisInformacoes geralTransition">Mais Informações</a>
 										<a href="javascript:;" class="btFecharAccordion">Fechar</a>
 									</div>
 								</div>
@@ -183,7 +183,7 @@
 									</div>
 
 									<div class="clearfix">
-										<a href="javascript:;" class="btMaisInformacoes">Mais Informações</a>
+										<a href="javascript:;" class="btMaisInformacoes geralTransition">Mais Informações</a>
 										<a href="javascript:;" class="btFecharAccordion">Fechar</a>
 									</div>
 								</div>
@@ -203,7 +203,7 @@
 									</div>
 
 									<div class="clearfix">
-										<a href="javascript:;" class="btMaisInformacoes">Mais Informações</a>
+										<a href="javascript:;" class="btMaisInformacoes geralTransition">Mais Informações</a>
 										<a href="javascript:;" class="btFecharAccordion">Fechar</a>
 									</div>
 								</div>
@@ -223,7 +223,7 @@
 									</div>
 
 									<div class="clearfix">
-										<a href="javascript:;" class="btMaisInformacoes">Mais Informações</a>
+										<a href="javascript:;" class="btMaisInformacoes geralTransition">Mais Informações</a>
 										<a href="javascript:;" class="btFecharAccordion">Fechar</a>
 									</div>
 								</div>
@@ -243,7 +243,7 @@
 									</div>
 
 									<div class="clearfix">
-										<a href="javascript:;" class="btMaisInformacoes">Mais Informações</a>
+										<a href="javascript:;" class="btMaisInformacoes geralTransition">Mais Informações</a>
 										<a href="javascript:;" class="btFecharAccordion">Fechar</a>
 									</div>
 								</div>
@@ -258,7 +258,11 @@
 				</div>
 
 				<aside id="sidebar">
-					<img src="img/img_side.png" alt="">
+					<div class="imagemSidebar">
+						<div class="maskLeft"></div>
+						<div class="maskRight"></div>
+						<img class="imgSidebar" src="img/img_side.jpg" alt="">
+					</div>
 
 					<span class="tituloSidebar"><span>Produtos</span></span>
 

@@ -112,7 +112,11 @@
 				</div>
 
 				<aside id="sidebar">
-					<img src="img/img_side.png" alt="">
+					<div class="imagemSidebar">
+						<div class="maskLeft"></div>
+						<div class="maskRight"></div>
+						<img class="imgSidebar" src="img/img_side.jpg" alt="">
+					</div>
 
 					<span class="tituloSidebar"><span>Produtos</span></span>
 

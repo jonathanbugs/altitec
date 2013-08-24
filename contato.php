@@ -65,7 +65,7 @@
 									<div class="divide clearfix">
 										<label id="lblFone" for="iptFone">Fone:</label>
 										<div class="relative relativeInput clearfix">
-											<input type="text" id="iptEmail" name="iptEmail">
+											<input type="text" id="iptFone" name="iptFone">
 										</div>
 									</div>
 
@@ -84,6 +84,12 @@
 									</div>
 								</li>
 
+								<li class="errorBox">
+									<div class="clearfix">
+										* Todos os campos são obrigatórios
+									</div>
+								</li>
+
 								<li>
 									<div class="relativeBt clearfix">
 										<button class="btEnviar" id="btEnviarContato">Enviar</button>
@@ -98,7 +104,12 @@
 					</div>
 				</div>
 				<aside id="sidebar" class="geralTransition">
-					<img src="img/img_side.png" alt="">
+					<div class="imagemSidebar">
+						<div class="maskLeft"></div>
+						<div class="maskRight"></div>
+						<img class="imgSidebar" src="img/img_side.jpg" alt="">
+					</div>
+					
 					<span class="tituloSidebar">
 						<span>Como Chegar</span>
 					</span>
@@ -133,6 +144,7 @@
 		<script src="js/vendor/jquery-1.9.1.min.js"></script>
 		<script src="js/plugins.js"></script>
 		<script src="js/main.js"></script>
+		<script src="js/contato.js"></script>
 
 		
 		<!-- Google Analytics -->

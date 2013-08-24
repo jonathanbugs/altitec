@@ -69,7 +69,12 @@
 					</div>
 				</div>
 				<aside id="sidebar" class="geralTransition">
-					<img src="img/img_side.png" alt="">
+					<div class="imagemSidebar">
+						<div class="maskLeft"></div>
+						<div class="maskRight"></div>
+						<img class="imgSidebar" src="img/img_side.jpg" alt="">
+					</div>
+					
 					<span class="tituloSidebar">
 						<span>Institucional</span>
 					</span>
