@@ -1,10 +1,10 @@
 <nav id="menuMobile">
- 	<span class="foneMobile">51 3561 9493</span>
+ 	<a class="foneMobile" href="tel:5135619493">51 3561 9493</a>
 
 	<form action="javascript:;" method="post" class="formBuscaMobile">
 		<div class="relative">
-			<label class="label" for="busca">Busca</label>
-			<input class="input" type="text" id="busca" name="busca" />
+			<label class="label" for="buscaMenuMobile">Busca</label>
+			<input class="input" type="text" id="buscaMenuMobile" name="buscaMenuMobile" />
 			<button type="submit" class="btBusca"></button>
 		</div>
 	</form>

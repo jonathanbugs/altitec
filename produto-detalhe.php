@@ -29,129 +29,129 @@
 		<!--[if lt IE 7]>
 			<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 		<![endif]-->
+		<div id="wrapper">
+			<header id="topo">
+				<?php include "includes/topo.php"; ?>
+			</header>
 
-		<header id="topo">
-			<?php include "includes/topo.php"; ?>
-		</header>
-
-		<section id="conteudoPrincipal">
-			<div class="container clearfix">
-				<div id="main">
-					<div class="clearfix headerSessao">
-						<h2 class="tituloSessao">Descensor IDS Petzl</h2>
-						<ul class="migalhaPao">
-							<li><a href="javascript:;">principal</a></li>
-							<li><a href="javascript:;">produtos</a></li>
-							<li><a href="javascript:;">nome categoria</a></li>
-							<li class="last"><a href="javascript:;">Descensor ID S Petzl</a></li>
-						</ul>
-					
-						<span class="ttCategoria"><span>Nome Categoria</span></span>
-					</div>
-					<div id="sessaoConteudo">
-						<div class="cms">
-							<img src="img/produto_detalhe.jpg" alt="">
-
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sodales arcu sit amet elit eleifend, porttitor interdum neque dictum. Ut posuere porta ligula, varius mattis nibh malesuada vel. Cras vel leo suscipit est eleifend posuere. Donec vel pulvinar felis, non molestie quam. Ut nec facilisis leo. Sed ut gravida ipsum. Suspendisse potenti. Donec eu feugiat nibh. Nunc vitae dictum lacus. Nam tempor ipsum id risus aliquet, in convallis tortor tristique.</p>
-							<p>Integer lobortis ligula et dui porttitor commodo. Proin viverra magna in augue hendrerit laoreet. Fusce ut mattis erat. Pellentesque sed tortor erat. Fusce commodo fringilla porta. Nam lorem diam, rhoncus eget blandit nec, semper cursus leo. Mauris a justo a ligula vestibulum mollis placerat vel eros. Integer massa enim, laoreet id velit ut, dictum blandit purus. Phasellus non rutrum dolor, et vestibulum turpis. Mauris ut vestibulum massa. Morbi a erat sem. Sed libero orci, euismod non tincidunt consequat, bibendum et magna. Suspendisse potenti. Nam aliquet, eros a mattis pellentesque, ante nulla pharetra justo, eget dapibus eros purus vel sem.</p>
+			<section id="conteudoPrincipal">
+				<div class="container clearfix">
+					<div id="main">
+						<div class="clearfix headerSessao">
+							<h2 class="tituloSessao">Descensor IDS Petzl</h2>
+							<ul class="migalhaPao">
+								<li><a href="javascript:;">principal</a></li>
+								<li><a href="javascript:;">produtos</a></li>
+								<li><a href="javascript:;">nome categoria</a></li>
+								<li class="last"><a href="javascript:;">Descensor ID S Petzl</a></li>
+							</ul>
+						
+							<span class="ttCategoria"><span>Nome Categoria</span></span>
 						</div>
+						<div id="sessaoConteudo">
+							<div class="cms">
+								<img src="img/produto_detalhe.jpg" alt="">
 
-						<a href="javascript:;" class="btRealizarOrcamento"><span>(Realizar orçamento)</span></a>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sodales arcu sit amet elit eleifend, porttitor interdum neque dictum. Ut posuere porta ligula, varius mattis nibh malesuada vel. Cras vel leo suscipit est eleifend posuere. Donec vel pulvinar felis, non molestie quam. Ut nec facilisis leo. Sed ut gravida ipsum. Suspendisse potenti. Donec eu feugiat nibh. Nunc vitae dictum lacus. Nam tempor ipsum id risus aliquet, in convallis tortor tristique.</p>
+								<p>Integer lobortis ligula et dui porttitor commodo. Proin viverra magna in augue hendrerit laoreet. Fusce ut mattis erat. Pellentesque sed tortor erat. Fusce commodo fringilla porta. Nam lorem diam, rhoncus eget blandit nec, semper cursus leo. Mauris a justo a ligula vestibulum mollis placerat vel eros. Integer massa enim, laoreet id velit ut, dictum blandit purus. Phasellus non rutrum dolor, et vestibulum turpis. Mauris ut vestibulum massa. Morbi a erat sem. Sed libero orci, euismod non tincidunt consequat, bibendum et magna. Suspendisse potenti. Nam aliquet, eros a mattis pellentesque, ante nulla pharetra justo, eget dapibus eros purus vel sem.</p>
+							</div>
 
-						<form action="javascript:;" id="formOrcamento" class="form">
-							<ul>
-								<li>
-									<label id="lblNome" for="iptNome">Nome:</label>
-									<div class="relative relativeInput clearfix">
-										<input type="text" id="iptNome" name="iptNome">
-									</div>
-								</li>
+							<a href="javascript:;" class="btRealizarOrcamento"><span>(Realizar orçamento)</span></a>
 
-								<li>
-									<label id="lblEmail" for="iptEmail">E-mail:</label>
-									<div class="relative relativeInput clearfix">
-										<input type="text" id="iptEmail" name="iptEmail">
-									</div>
-								</li>
+							<form action="javascript:;" id="formOrcamento" class="form">
+								<ul>
+									<li>
+										<label id="lblNome" for="iptNome">Nome:</label>
+										<div class="relative relativeInput clearfix">
+											<input type="text" id="iptNome" name="iptNome">
+										</div>
+									</li>
 
-								<li>
-									<div class="divide clearfix">
-										<label id="lblFone" for="iptFone">Fone:</label>
+									<li>
+										<label id="lblEmail" for="iptEmail">E-mail:</label>
 										<div class="relative relativeInput clearfix">
 											<input type="text" id="iptEmail" name="iptEmail">
 										</div>
-									</div>
+									</li>
 
-									<div class="divide clearfix">
-										<label id="lblCidade" for="IptCidade">Cidade/UF:</label>
-										<div class="relative relativeInput clearfix">
-											<input type="text" id="iptCidade" name="iptCidade">
+									<li>
+										<div class="divide clearfix">
+											<label id="lblFone" for="iptFone">Fone:</label>
+											<div class="relative relativeInput clearfix">
+												<input type="text" id="iptEmail" name="iptEmail">
+											</div>
 										</div>
-									</div>
-								</li>
 
-								<li class="liCampoTextArea">
-									<label id="lblMensagem" for="txtAreaMensagem">Mensagem:</label>
-									<div class="relative relativeTextarea clearfix">
-										<textarea name="txtAreaMensagem" id="txtAreaMensagem" cols="30" rows="10"></textarea>
-									</div>
-								</li>
+										<div class="divide clearfix">
+											<label id="lblCidade" for="IptCidade">Cidade/UF:</label>
+											<div class="relative relativeInput clearfix">
+												<input type="text" id="iptCidade" name="iptCidade">
+											</div>
+										</div>
+									</li>
 
+									<li class="liCampoTextArea">
+										<label id="lblMensagem" for="txtAreaMensagem">Mensagem:</label>
+										<div class="relative relativeTextarea clearfix">
+											<textarea name="txtAreaMensagem" id="txtAreaMensagem" cols="30" rows="10"></textarea>
+										</div>
+									</li>
+
+									<li>
+										<div class="relativeBt clearfix">
+											<button class="btEnviar" id="btEnviarContato">Enviar</button>
+										</div>
+									</li>
+								</ul>
+							</form>	
+						</div>
+
+						<div class="voltarTopo">
+							<a id="linkTopo" class="ir" href="#topo">Voltar ao Topo</a>
+						</div>
+					</div>
+
+					<aside id="sidebar">
+						<img src="img/img_side.png" alt="">
+
+						<span class="tituloSidebar"><span>Produtos</span></span>
+
+						<nav id="navLocal">
+							<ul>
 								<li>
-									<div class="relativeBt clearfix">
-										<button class="btEnviar" id="btEnviarContato">Enviar</button>
-									</div>
+									<a href="javascript:;">Nome Categoria</a>
+								</li>
+								<li>
+									<a href="javascript:;">Nome Categoria</a>
+								</li>
+								<li>
+									<a href="javascript:;">Nome Categoria</a>
+								</li>
+								<li>
+									<a href="javascript:;">Nome Categoria</a>
+								</li>
+								<li>
+									<a href="javascript:;">Nome Categoria</a>
+								</li>
+								<li class="subCategoriaAberta">
+									<a href="javascript:;">Nome Categoria</a>
+									<ul>
+										<li><a href="javascript:;">Nome Categoria</a></li>
+										<li><a href="javascript:;">Nome Categoria</a></li>
+										<li><a href="javascript:;">Nome Categoria</a></li>
+									</ul>
 								</li>
 							</ul>
-						</form>	
-					</div>
-
-					<div class="voltarTopo">
-						<a id="linkTopo" class="ir" href="#topo">Voltar ao Topo</a>
-					</div>
+						</nav>	
+					</aside>	
 				</div>
 
-				<aside id="sidebar">
-					<img src="img/img_side.png" alt="">
+			</section>
 
-					<span class="tituloSidebar"><span>Produtos</span></span>
-
-					<nav id="navLocal">
-						<ul>
-							<li>
-								<a href="javascript:;">Nome Categoria</a>
-							</li>
-							<li>
-								<a href="javascript:;">Nome Categoria</a>
-							</li>
-							<li>
-								<a href="javascript:;">Nome Categoria</a>
-							</li>
-							<li>
-								<a href="javascript:;">Nome Categoria</a>
-							</li>
-							<li>
-								<a href="javascript:;">Nome Categoria</a>
-							</li>
-							<li class="subCategoriaAberta">
-								<a href="javascript:;">Nome Categoria</a>
-								<ul>
-									<li><a href="javascript:;">Nome Categoria</a></li>
-									<li><a href="javascript:;">Nome Categoria</a></li>
-									<li><a href="javascript:;">Nome Categoria</a></li>
-								</ul>
-							</li>
-						</ul>
-					</nav>	
-				</aside>	
-			</div>
-
-		</section>
-
-		<footer>
-			<?php include "includes/rodape.php"; ?>
-		</footer>
-
+			<footer>
+				<?php include "includes/rodape.php"; ?>
+			</footer>
+		</div>
 		
 		<script src="js/vendor/jquery-1.9.1.min.js"></script>
 		<script src="js/plugins.js"></script>
