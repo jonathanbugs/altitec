@@ -534,6 +534,10 @@ body {
 	position: relative;
 }
 
+.categoriasLi ul {
+	display: none;
+}
+
 .maskLeft,
 .maskRight {
 	position: absolute;

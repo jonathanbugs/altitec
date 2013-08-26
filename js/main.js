@@ -4,6 +4,7 @@ $(document).ready(function(){
 	scrollTopo();
 	galeriaProdutos();
 	abrirMenu();
+	accordionCategorias();
 });
 
 function placeHolder(){
@@ -76,6 +77,15 @@ function galeriaProdutos(){
 		}
 	});
 }
+
+
+function accordionCategorias (){
+	$(".categoriasLi").click(function(){
+		//$(this).toggleClass("subCategoriaAberta");
+		$(this).find(".subCategoriaAberta").slideToggle(450, 'linear');
+	});	
+}
+
 
 /**************
 	MENU MOBILE

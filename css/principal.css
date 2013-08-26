@@ -420,6 +420,10 @@
 		margin: 45px 0 35px;
 	}
 
+	.rslides_tabs {
+		display: none;
+	}
+
 	.textoBanner {
 		text-align: left;
 	}

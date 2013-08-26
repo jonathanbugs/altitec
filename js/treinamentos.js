@@ -9,4 +9,3 @@ function accordion(){
 		$(this).children(".conteudoAccordion").slideToggle(550, 'linear');
 	});
 }
-

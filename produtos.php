@@ -212,24 +212,41 @@
 
 						<nav id="navLocal">
 							<ul>
-								<li>
+								<li class="categoriasLi">
 									<a href="javascript:;">Nome Categoria</a>
+									<ul class="subCategoriaAberta">
+										<li><a href="javascript:;">Nome Categoria</a></li>
+										<li><a href="javascript:;">Nome Categoria</a></li>
+										<li><a href="javascript:;">Nome Categoria</a></li>
+									</ul>
 								</li>
-								<li>
+								<li class="categoriasLi">
 									<a href="javascript:;">Nome Categoria</a>
+									<ul class="subCategoriaAberta">
+										<li><a href="javascript:;">Nome Categoria</a></li>
+										<li><a href="javascript:;">Nome Categoria</a></li>
+										<li><a href="javascript:;">Nome Categoria</a></li>
+									</ul>
 								</li>
-								<li>
+								<li class="categoriasLi">
 									<a href="javascript:;">Nome Categoria</a>
+									<ul class="subCategoriaAberta">
+										<li><a href="javascript:;">Nome Categoria</a></li>
+										<li><a href="javascript:;">Nome Categoria</a></li>
+										<li><a href="javascript:;">Nome Categoria</a></li>
+									</ul>
 								</li>
-								<li>
+								<li class="categoriasLi">
 									<a href="javascript:;">Nome Categoria</a>
+									<ul class="subCategoriaAberta">
+										<li><a href="javascript:;">Nome Categoria</a></li>
+										<li><a href="javascript:;">Nome Categoria</a></li>
+										<li><a href="javascript:;">Nome Categoria</a></li>
+									</ul>
 								</li>
-								<li>
+								<li class="categoriasLi">
 									<a href="javascript:;">Nome Categoria</a>
-								</li>
-								<li class="subCategoriaAberta">
-									<a href="javascript:;">Nome Categoria</a>
-									<ul>
+									<ul class="subCategoriaAberta">
 										<li><a href="javascript:;">Nome Categoria</a></li>
 										<li><a href="javascript:;">Nome Categoria</a></li>
 										<li><a href="javascript:;">Nome Categoria</a></li>
