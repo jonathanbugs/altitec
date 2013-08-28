@@ -232,6 +232,10 @@ body {
     webkit-box-sizing: border-box;
 }
 
+#wrapper {
+	background: url("../img/backgrounds/bg_wrapper.png") no-repeat center top;
+}
+
 .container {
 	max-width: 950px;
 	margin: 0 auto;
@@ -334,7 +338,7 @@ body {
 #menuPrincipal {
 	position: relative;
 	z-index: 100;
-	margin-top: 45px;
+	margin: 45px 20px 0 20px;
 }
 
 #menuMobile {
@@ -390,6 +394,7 @@ body {
 /* RODAPE */
 #rodapeConteudo {
 	margin-top: 30px;
+	padding-bottom:50px;
 }
 
 #rodapeConteudo .fone {
@@ -802,7 +807,7 @@ body {
 
 	#boxLogo {
 		width: 223px;
-		margin: 0;
+		margin-left: -30px;
 	}
 
 	#boxLogo img {
@@ -852,8 +857,6 @@ body {
 	.migalhaPao {
 		display: inline-block;
 	}
-
-
 
 	/* RODAPE */
 	#rodapeLeft {
@@ -951,11 +954,10 @@ body {
 	*--------------------------------------------------------------------------------*/
 	.btMenu {
 		display: block;
-		width: 50px;
-		height: 50px;
+		width: 45px;
+		height: 45px;
 		float: right;
 		background: url("../img/botoes/bt_menu_mobile.png") no-repeat #006633 0 0;
-		margin-right: 20px;
 	}
 
 	#menuMobile {
@@ -984,6 +986,7 @@ body {
 	}
 
 	#wrapper {
+		background: none;
 		position: relative;
 		right: 0;
 
@@ -1006,7 +1009,7 @@ body {
 	}
 
 	.menuAberto .btMenu {
-		background-position: 0 -80px;
+		background-position: 0 -79px;
 	}
 
 	.menuAberto #menuMobile {

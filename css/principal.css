@@ -417,7 +417,11 @@
 	}
 
 	#banner {
-		margin: 45px 0 35px;
+		margin: 35px 0 35px;
+	}
+
+	.rslides {
+		top: 0;
 	}
 
 	.rslides_tabs {
